@@ -724,3 +724,268 @@ java.lang.NullPointerException: null
 	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-util.jar:9.0.64]
 	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-util.jar:9.0.64]
 	at java.lang.Thread.run(Thread.java:834) ~[?:?]
+ERROR info.magnolia.rest.client.redirect.RedirectFilter 23.06.2022 23:01:16 -- Error trying redirect to A, from initial https://en.wikipedia.org/api/rest_v1/page/related/a
+javax.ws.rs.ProcessingException: RESTEASY004655: Unable to invoke request: org.apache.http.client.ClientProtocolException
+	at org.jboss.resteasy.client.jaxrs.engines.ManualClosingApacheHttpClient43Engine.invoke(ManualClosingApacheHttpClient43Engine.java:299) ~[resteasy-client-4.6.1.Final.jar:4.6.1.Final]
+	at org.jboss.resteasy.client.jaxrs.internal.ClientInvocation.invoke(ClientInvocation.java:492) ~[resteasy-client-4.6.1.Final.jar:4.6.1.Final]
+	at org.jboss.resteasy.client.jaxrs.internal.ClientInvocation.invoke(ClientInvocation.java:67) ~[resteasy-client-4.6.1.Final.jar:4.6.1.Final]
+	at org.jboss.resteasy.client.jaxrs.internal.ClientInvocationBuilder.method(ClientInvocationBuilder.java:322) ~[resteasy-client-4.6.1.Final.jar:4.6.1.Final]
+	at info.magnolia.rest.client.redirect.RedirectFilter.filter(RedirectFilter.java:71) ~[magnolia-rest-client-2.0.3.jar:?]
+	at org.jboss.resteasy.client.jaxrs.internal.ClientInvocation.filterResponse(ClientInvocation.java:719) ~[resteasy-client-4.6.1.Final.jar:4.6.1.Final]
+	at org.jboss.resteasy.client.jaxrs.internal.ClientInvocation.invoke(ClientInvocation.java:493) ~[resteasy-client-4.6.1.Final.jar:4.6.1.Final]
+	at org.jboss.resteasy.client.jaxrs.internal.ClientInvocation.invoke(ClientInvocation.java:509) ~[resteasy-client-4.6.1.Final.jar:4.6.1.Final]
+	at org.jboss.resteasy.client.jaxrs.internal.ClientInvocationBuilder.method(ClientInvocationBuilder.java:328) ~[resteasy-client-4.6.1.Final.jar:4.6.1.Final]
+	at info.magnolia.rest.client.DefaultRestClient.processResponse(DefaultRestClient.java:279) ~[magnolia-rest-client-2.0.3.jar:?]
+	at info.magnolia.rest.client.DefaultRestClient.doInvoke(DefaultRestClient.java:259) ~[magnolia-rest-client-2.0.3.jar:?]
+	at info.magnolia.rest.client.DefaultRestClient.invoke(DefaultRestClient.java:191) ~[magnolia-rest-client-2.0.3.jar:?]
+	at info.magnolia.rest.client.DefaultRestClient.invoke(DefaultRestClient.java:178) ~[magnolia-rest-client-2.0.3.jar:?]
+	at info.magnolia.rest.client.app.ui.RestCallWithDefinitionForm.request(RestCallWithDefinitionForm.java:150) ~[magnolia-rest-client-app-2.0.3.jar:?]
+	at info.magnolia.rest.client.app.ui.AbstractRestCallForm.invokeRestClient(AbstractRestCallForm.java:214) ~[magnolia-rest-client-app-2.0.3.jar:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:566) ~[?:?]
+	at com.vaadin.event.ListenerMethod.receiveEvent(ListenerMethod.java:706) ~[vaadin-server-8.15.2.jar:8.15.2]
+	at com.vaadin.event.EventRouter.fireEvent(EventRouter.java:399) ~[vaadin-server-8.15.2.jar:8.15.2]
+	at com.vaadin.event.EventRouter.fireEvent(EventRouter.java:363) ~[vaadin-server-8.15.2.jar:8.15.2]
+	at com.vaadin.server.AbstractClientConnector.fireEvent(AbstractClientConnector.java:1190) ~[vaadin-server-8.15.2.jar:8.15.2]
+	at com.vaadin.ui.Button.fireClick(Button.java:384) ~[vaadin-server-8.15.2.jar:8.15.2]
+	at com.vaadin.ui.Button$1.click(Button.java:57) ~[vaadin-server-8.15.2.jar:8.15.2]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:566) ~[?:?]
+	at com.vaadin.server.ServerRpcManager.applyInvocation(ServerRpcManager.java:155) ~[vaadin-server-8.15.2.jar:8.15.2]
+	at com.vaadin.server.ServerRpcManager.applyInvocation(ServerRpcManager.java:116) ~[vaadin-server-8.15.2.jar:8.15.2]
+	at com.vaadin.server.communication.ServerRpcHandler.handleInvocation(ServerRpcHandler.java:447) ~[vaadin-server-8.15.2.jar:8.15.2]
+	at com.vaadin.server.communication.ServerRpcHandler.handleInvocations(ServerRpcHandler.java:412) ~[vaadin-server-8.15.2.jar:8.15.2]
+	at com.vaadin.server.communication.ServerRpcHandler.handleRpc(ServerRpcHandler.java:275) ~[vaadin-server-8.15.2.jar:8.15.2]
+	at com.vaadin.server.communication.UidlRequestHandler.synchronizedHandleRequest(UidlRequestHandler.java:91) ~[vaadin-server-8.15.2.jar:8.15.2]
+	at com.vaadin.server.SynchronizedRequestHandler.handleRequest(SynchronizedRequestHandler.java:40) ~[vaadin-server-8.15.2.jar:8.15.2]
+	at com.vaadin.server.VaadinService.handleRequest(VaadinService.java:1637) ~[vaadin-server-8.15.2.jar:8.15.2]
+	at com.vaadin.server.VaadinServlet.service(VaadinServlet.java:464) ~[vaadin-server-8.15.2.jar:8.15.2]
+	at info.magnolia.admincentral.AdmincentralServlet.service(AdmincentralServlet.java:119) ~[magnolia-admincentral-6.2.20.jar:?]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764) ~[servlet-api.jar:4.0.FR]
+	at info.magnolia.cms.filters.ServletDispatchingFilter.doFilter(ServletDispatchingFilter.java:148) ~[magnolia-core-6.2.20.jar:?]
+	at info.magnolia.cms.filters.AbstractMgnlFilter.doFilter(AbstractMgnlFilter.java:85) ~[magnolia-core-6.2.20.jar:?]
+	at info.magnolia.cms.filters.MgnlFilterChain.doFilter(MgnlFilterChain.java:79) ~[magnolia-core-6.2.20.jar:?]
+	at info.magnolia.cms.filters.MgnlFilterChain.doFilter(MgnlFilterChain.java:81) ~[magnolia-core-6.2.20.jar:?]
+	at info.magnolia.cms.filters.MgnlFilterChain.doFilter(MgnlFilterChain.java:81) ~[magnolia-core-6.2.20.jar:?]
+	at info.magnolia.cms.filters.MgnlFilterChain.doFilter(MgnlFilterChain.java:81) ~[magnolia-core-6.2.20.jar:?]
+	at info.magnolia.cms.filters.MgnlFilterChain.doFilter(MgnlFilterChain.java:81) ~[magnolia-core-6.2.20.jar:?]
+	at info.magnolia.cms.filters.CompositeFilter.doFilter(CompositeFilter.java:75) ~[magnolia-core-6.2.20.jar:?]
+	at info.magnolia.cms.filters.AbstractMgnlFilter.doFilter(AbstractMgnlFilter.java:85) ~[magnolia-core-6.2.20.jar:?]
+	at info.magnolia.cms.filters.MgnlFilterChain.doFilter(MgnlFilterChain.java:79) ~[magnolia-core-6.2.20.jar:?]
+	at info.magnolia.module.cache.executor.Bypass.processCacheRequest(Bypass.java:58) ~[magnolia-cache-core-5.9.4.jar:?]
+	at info.magnolia.module.cache.executor.CompositeExecutor.processCacheRequest(CompositeExecutor.java:66) ~[magnolia-cache-core-5.9.4.jar:?]
+	at info.magnolia.module.cache.filter.CacheFilter.doFilter(CacheFilter.java:164) ~[magnolia-cache-core-5.9.4.jar:?]
+	at info.magnolia.cms.filters.AbstractMgnlFilter.doFilter(AbstractMgnlFilter.java:85) ~[magnolia-core-6.2.20.jar:?]
+	at info.magnolia.cms.filters.MgnlFilterChain.doFilter(MgnlFilterChain.java:79) ~[magnolia-core-6.2.20.jar:?]
+	at info.magnolia.cms.i18n.I18nContentSupportFilter.doFilter(I18nContentSupportFilter.java:85) ~[magnolia-core-6.2.20.jar:?]
+	at info.magnolia.cms.filters.AbstractMgnlFilter.doFilter(AbstractMgnlFilter.java:85) ~[magnolia-core-6.2.20.jar:?]
+	at info.magnolia.cms.filters.MgnlFilterChain.doFilter(MgnlFilterChain.java:79) ~[magnolia-core-6.2.20.jar:?]
+	at info.magnolia.virtualuri.VirtualUriFilter.doFilter(VirtualUriFilter.java:102) ~[magnolia-virtual-uri-6.2.20.jar:?]
+	at info.magnolia.cms.filters.AbstractMgnlFilter.doFilter(AbstractMgnlFilter.java:85) ~[magnolia-core-6.2.20.jar:?]
+	at info.magnolia.cms.filters.MgnlFilterChain.doFilter(MgnlFilterChain.java:79) ~[magnolia-core-6.2.20.jar:?]
+	at info.magnolia.cms.filters.RangeSupportFilter.doFilter(RangeSupportFilter.java:78) ~[magnolia-core-6.2.20.jar:?]
+	at info.magnolia.cms.filters.AbstractMgnlFilter.doFilter(AbstractMgnlFilter.java:85) ~[magnolia-core-6.2.20.jar:?]
+	at info.magnolia.cms.filters.MgnlFilterChain.doFilter(MgnlFilterChain.java:79) ~[magnolia-core-6.2.20.jar:?]
+	at info.magnolia.cms.security.BaseSecurityFilter.doFilter(BaseSecurityFilter.java:57) ~[magnolia-core-6.2.20.jar:?]
+	at info.magnolia.cms.filters.AbstractMgnlFilter.doFilter(AbstractMgnlFilter.java:85) ~[magnolia-core-6.2.20.jar:?]
+	at info.magnolia.cms.filters.MgnlFilterChain.doFilter(MgnlFilterChain.java:79) ~[magnolia-core-6.2.20.jar:?]
+	at info.magnolia.cors.AbstractCorsFilter.doFilter(AbstractCorsFilter.java:77) ~[magnolia-core-6.2.20.jar:?]
+	at info.magnolia.cms.filters.AbstractMgnlFilter.doFilter(AbstractMgnlFilter.java:85) ~[magnolia-core-6.2.20.jar:?]
+	at info.magnolia.cms.filters.CompositeFilter.doFilter(CompositeFilter.java:79) ~[magnolia-core-6.2.20.jar:?]
+	at info.magnolia.cms.filters.AbstractMgnlFilter.doFilter(AbstractMgnlFilter.java:85) ~[magnolia-core-6.2.20.jar:?]
+	at info.magnolia.cms.filters.MgnlFilterChain.doFilter(MgnlFilterChain.java:79) ~[magnolia-core-6.2.20.jar:?]
+	at info.magnolia.cms.filters.MgnlFilterChain.doFilter(MgnlFilterChain.java:81) ~[magnolia-core-6.2.20.jar:?]
+	at info.magnolia.cms.security.SecurityCallbackFilter.doFilter(SecurityCallbackFilter.java:84) ~[magnolia-core-6.2.20.jar:?]
+	at info.magnolia.cms.filters.OncePerRequestAbstractMgnlFilter.doFilter(OncePerRequestAbstractMgnlFilter.java:59) ~[magnolia-core-6.2.20.jar:?]
+	at info.magnolia.cms.filters.MgnlFilterChain.doFilter(MgnlFilterChain.java:79) ~[magnolia-core-6.2.20.jar:?]
+	at info.magnolia.cms.security.LogoutFilter.doFilter(LogoutFilter.java:94) ~[magnolia-core-6.2.20.jar:?]
+	at info.magnolia.cms.filters.OncePerRequestAbstractMgnlFilter.doFilter(OncePerRequestAbstractMgnlFilter.java:59) ~[magnolia-core-6.2.20.jar:?]
+	at info.magnolia.cms.filters.MgnlFilterChain.doFilter(MgnlFilterChain.java:79) ~[magnolia-core-6.2.20.jar:?]
+	at info.magnolia.module.site.filters.SiteMergeFilter.doFilter(SiteMergeFilter.java:119) ~[magnolia-site-1.4.4.jar:?]
+	at info.magnolia.cms.filters.AbstractMgnlFilter.doFilter(AbstractMgnlFilter.java:85) ~[magnolia-core-6.2.20.jar:?]
+	at info.magnolia.cms.filters.MgnlFilterChain.doFilter(MgnlFilterChain.java:79) ~[magnolia-core-6.2.20.jar:?]
+	at info.magnolia.cms.filters.MultiChannelFilter.doFilter(MultiChannelFilter.java:83) ~[magnolia-core-6.2.20.jar:?]
+	at info.magnolia.cms.filters.AbstractMgnlFilter.doFilter(AbstractMgnlFilter.java:85) ~[magnolia-core-6.2.20.jar:?]
+	at info.magnolia.cms.filters.MgnlFilterChain.doFilter(MgnlFilterChain.java:79) ~[magnolia-core-6.2.20.jar:?]
+	at info.magnolia.module.cache.filter.GZipFilter.doFilter(GZipFilter.java:74) ~[magnolia-cache-core-5.9.4.jar:?]
+	at info.magnolia.cms.filters.OncePerRequestAbstractMgnlFilter.doFilter(OncePerRequestAbstractMgnlFilter.java:59) ~[magnolia-core-6.2.20.jar:?]
+	at info.magnolia.cms.filters.MgnlFilterChain.doFilter(MgnlFilterChain.java:79) ~[magnolia-core-6.2.20.jar:?]
+	at info.magnolia.cms.filters.MgnlFilterChain.doFilter(MgnlFilterChain.java:81) ~[magnolia-core-6.2.20.jar:?]
+	at info.magnolia.cms.security.auth.login.LoginFilter.doFilter(LoginFilter.java:128) ~[magnolia-core-6.2.20.jar:?]
+	at info.magnolia.cms.filters.AbstractMgnlFilter.doFilter(AbstractMgnlFilter.java:85) ~[magnolia-core-6.2.20.jar:?]
+	at info.magnolia.cms.filters.MgnlFilterChain.doFilter(MgnlFilterChain.java:79) ~[magnolia-core-6.2.20.jar:?]
+	at info.magnolia.cms.filters.MgnlFilterChain.doFilter(MgnlFilterChain.java:81) ~[magnolia-core-6.2.20.jar:?]
+	at info.magnolia.cms.filters.MgnlFilterChain.doFilter(MgnlFilterChain.java:81) ~[magnolia-core-6.2.20.jar:?]
+	at info.magnolia.cms.filters.MgnlFilterChain.doFilter(MgnlFilterChain.java:81) ~[magnolia-core-6.2.20.jar:?]
+	at info.magnolia.cms.filters.ContentTypeFilter.doFilter(ContentTypeFilter.java:155) ~[magnolia-core-6.2.20.jar:?]
+	at info.magnolia.cms.filters.AbstractMgnlFilter.doFilter(AbstractMgnlFilter.java:85) ~[magnolia-core-6.2.20.jar:?]
+	at info.magnolia.cms.filters.MgnlFilterChain.doFilter(MgnlFilterChain.java:79) ~[magnolia-core-6.2.20.jar:?]
+	at info.magnolia.cms.filters.ContextFilter.doFilter(ContextFilter.java:128) ~[magnolia-core-6.2.20.jar:?]
+	at info.magnolia.cms.filters.AbstractMgnlFilter.doFilter(AbstractMgnlFilter.java:85) ~[magnolia-core-6.2.20.jar:?]
+	at info.magnolia.cms.filters.MgnlFilterChain.doFilter(MgnlFilterChain.java:79) ~[magnolia-core-6.2.20.jar:?]
+	at info.magnolia.cms.filters.CompositeFilter.doFilter(CompositeFilter.java:75) ~[magnolia-core-6.2.20.jar:?]
+	at info.magnolia.cms.filters.AbstractMgnlFilter.doFilter(AbstractMgnlFilter.java:85) ~[magnolia-core-6.2.20.jar:?]
+	at info.magnolia.cms.filters.SafeDestroyMgnlFilterWrapper.doFilter(SafeDestroyMgnlFilterWrapper.java:107) ~[magnolia-core-6.2.20.jar:?]
+	at info.magnolia.cms.filters.MgnlFilterDispatcher.doDispatch(MgnlFilterDispatcher.java:67) ~[magnolia-core-6.2.20.jar:?]
+	at info.magnolia.cms.filters.MgnlMainFilter.doFilter(MgnlMainFilter.java:110) ~[magnolia-core-6.2.20.jar:?]
+	at info.magnolia.cms.filters.MgnlMainFilter.doFilter(MgnlMainFilter.java:96) ~[magnolia-core-6.2.20.jar:?]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[catalina.jar:9.0.64]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[catalina.jar:9.0.64]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197) ~[catalina.jar:9.0.64]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97) ~[catalina.jar:9.0.64]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541) ~[catalina.jar:9.0.64]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135) ~[catalina.jar:9.0.64]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) ~[catalina.jar:9.0.64]
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:687) ~[catalina.jar:9.0.64]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78) ~[catalina.jar:9.0.64]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360) ~[catalina.jar:9.0.64]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399) ~[tomcat-coyote.jar:9.0.64]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) ~[tomcat-coyote.jar:9.0.64]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:890) ~[tomcat-coyote.jar:9.0.64]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1787) ~[tomcat-coyote.jar:9.0.64]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) ~[tomcat-coyote.jar:9.0.64]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191) ~[tomcat-util.jar:9.0.64]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-util.jar:9.0.64]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-util.jar:9.0.64]
+	at java.lang.Thread.run(Thread.java:834) ~[?:?]
+Caused by: org.apache.http.client.ClientProtocolException
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:187) ~[httpclient-4.5.13.jar:4.5.13]
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83) ~[httpclient-4.5.13.jar:4.5.13]
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:56) ~[httpclient-4.5.13.jar:4.5.13]
+	at org.jboss.resteasy.client.jaxrs.engines.ManualClosingApacheHttpClient43Engine.invoke(ManualClosingApacheHttpClient43Engine.java:280) ~[resteasy-client-4.6.1.Final.jar:4.6.1.Final]
+	... 125 more
+Caused by: org.apache.http.ProtocolException: Target host is not specified
+	at org.apache.http.impl.conn.DefaultRoutePlanner.determineRoute(DefaultRoutePlanner.java:71) ~[httpclient-4.5.13.jar:4.5.13]
+	at org.apache.http.impl.client.InternalHttpClient.determineRoute(InternalHttpClient.java:125) ~[httpclient-4.5.13.jar:4.5.13]
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184) ~[httpclient-4.5.13.jar:4.5.13]
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83) ~[httpclient-4.5.13.jar:4.5.13]
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:56) ~[httpclient-4.5.13.jar:4.5.13]
+	at org.jboss.resteasy.client.jaxrs.engines.ManualClosingApacheHttpClient43Engine.invoke(ManualClosingApacheHttpClient43Engine.java:280) ~[resteasy-client-4.6.1.Final.jar:4.6.1.Final]
+	... 125 more
+ERROR info.magnolia.rest.client.app.ui.AbstractRestCallForm 23.06.2022 23:03:08 -- UnresolvableTemplateException: Failed to resolve templates: Key [status] has not been resolved from values [{status = 'sold'.}].
+info.magnolia.rest.client.value.UnresolvableTemplateException: Failed to resolve templates: Key [status] has not been resolved from values [{status = 'sold'.}].
+	at info.magnolia.rest.client.value.TemplateResolver.resolveWithDefaults(TemplateResolver.java:77)
+	at info.magnolia.rest.client.value.ResolvedRestCallDefinition.getQueryParameters(ResolvedRestCallDefinition.java:86)
+	at info.magnolia.rest.client.DefaultRestClient.withNewWebTarget(DefaultRestClient.java:349)
+	at info.magnolia.rest.client.DefaultRestClient.buildWebTarget(DefaultRestClient.java:320)
+	at info.magnolia.rest.client.DefaultRestClient.doInvoke(DefaultRestClient.java:257)
+	at info.magnolia.rest.client.DefaultRestClient.invoke(DefaultRestClient.java:191)
+	at info.magnolia.rest.client.DefaultRestClient.invoke(DefaultRestClient.java:178)
+	at info.magnolia.rest.client.app.ui.RestCallWithDefinitionForm.request(RestCallWithDefinitionForm.java:150)
+	at info.magnolia.rest.client.app.ui.AbstractRestCallForm.invokeRestClient(AbstractRestCallForm.java:214)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at com.vaadin.event.ListenerMethod.receiveEvent(ListenerMethod.java:706)
+	at com.vaadin.event.EventRouter.fireEvent(EventRouter.java:399)
+	at com.vaadin.event.EventRouter.fireEvent(EventRouter.java:363)
+	at com.vaadin.server.AbstractClientConnector.fireEvent(AbstractClientConnector.java:1190)
+	at com.vaadin.ui.Button.fireClick(Button.java:384)
+	at com.vaadin.ui.Button$1.click(Button.java:57)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at com.vaadin.server.ServerRpcManager.applyInvocation(ServerRpcManager.java:155)
+	at com.vaadin.server.ServerRpcManager.applyInvocation(ServerRpcManager.java:116)
+	at com.vaadin.server.communication.ServerRpcHandler.handleInvocation(ServerRpcHandler.java:447)
+	at com.vaadin.server.communication.ServerRpcHandler.handleInvocations(ServerRpcHandler.java:412)
+	at com.vaadin.server.communication.ServerRpcHandler.handleRpc(ServerRpcHandler.java:275)
+	at com.vaadin.server.communication.UidlRequestHandler.synchronizedHandleRequest(UidlRequestHandler.java:91)
+	at com.vaadin.server.SynchronizedRequestHandler.handleRequest(SynchronizedRequestHandler.java:40)
+	at com.vaadin.server.VaadinService.handleRequest(VaadinService.java:1637)
+	at com.vaadin.server.VaadinServlet.service(VaadinServlet.java:464)
+	at info.magnolia.admincentral.AdmincentralServlet.service(AdmincentralServlet.java:119)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at info.magnolia.cms.filters.ServletDispatchingFilter.doFilter(ServletDispatchingFilter.java:148)
+	at info.magnolia.cms.filters.AbstractMgnlFilter.doFilter(AbstractMgnlFilter.java:85)
+	at info.magnolia.cms.filters.MgnlFilterChain.doFilter(MgnlFilterChain.java:79)
+	at info.magnolia.cms.filters.MgnlFilterChain.doFilter(MgnlFilterChain.java:81)
+	at info.magnolia.cms.filters.MgnlFilterChain.doFilter(MgnlFilterChain.java:81)
+	at info.magnolia.cms.filters.MgnlFilterChain.doFilter(MgnlFilterChain.java:81)
+	at info.magnolia.cms.filters.MgnlFilterChain.doFilter(MgnlFilterChain.java:81)
+	at info.magnolia.cms.filters.CompositeFilter.doFilter(CompositeFilter.java:75)
+	at info.magnolia.cms.filters.AbstractMgnlFilter.doFilter(AbstractMgnlFilter.java:85)
+	at info.magnolia.cms.filters.MgnlFilterChain.doFilter(MgnlFilterChain.java:79)
+	at info.magnolia.module.cache.executor.Bypass.processCacheRequest(Bypass.java:58)
+	at info.magnolia.module.cache.executor.CompositeExecutor.processCacheRequest(CompositeExecutor.java:66)
+	at info.magnolia.module.cache.filter.CacheFilter.doFilter(CacheFilter.java:164)
+	at info.magnolia.cms.filters.AbstractMgnlFilter.doFilter(AbstractMgnlFilter.java:85)
+	at info.magnolia.cms.filters.MgnlFilterChain.doFilter(MgnlFilterChain.java:79)
+	at info.magnolia.cms.i18n.I18nContentSupportFilter.doFilter(I18nContentSupportFilter.java:85)
+	at info.magnolia.cms.filters.AbstractMgnlFilter.doFilter(AbstractMgnlFilter.java:85)
+	at info.magnolia.cms.filters.MgnlFilterChain.doFilter(MgnlFilterChain.java:79)
+	at info.magnolia.virtualuri.VirtualUriFilter.doFilter(VirtualUriFilter.java:102)
+	at info.magnolia.cms.filters.AbstractMgnlFilter.doFilter(AbstractMgnlFilter.java:85)
+	at info.magnolia.cms.filters.MgnlFilterChain.doFilter(MgnlFilterChain.java:79)
+	at info.magnolia.cms.filters.RangeSupportFilter.doFilter(RangeSupportFilter.java:78)
+	at info.magnolia.cms.filters.AbstractMgnlFilter.doFilter(AbstractMgnlFilter.java:85)
+	at info.magnolia.cms.filters.MgnlFilterChain.doFilter(MgnlFilterChain.java:79)
+	at info.magnolia.cms.security.BaseSecurityFilter.doFilter(BaseSecurityFilter.java:57)
+	at info.magnolia.cms.filters.AbstractMgnlFilter.doFilter(AbstractMgnlFilter.java:85)
+	at info.magnolia.cms.filters.MgnlFilterChain.doFilter(MgnlFilterChain.java:79)
+	at info.magnolia.cors.AbstractCorsFilter.doFilter(AbstractCorsFilter.java:77)
+	at info.magnolia.cms.filters.AbstractMgnlFilter.doFilter(AbstractMgnlFilter.java:85)
+	at info.magnolia.cms.filters.CompositeFilter.doFilter(CompositeFilter.java:79)
+	at info.magnolia.cms.filters.AbstractMgnlFilter.doFilter(AbstractMgnlFilter.java:85)
+	at info.magnolia.cms.filters.MgnlFilterChain.doFilter(MgnlFilterChain.java:79)
+	at info.magnolia.cms.filters.MgnlFilterChain.doFilter(MgnlFilterChain.java:81)
+	at info.magnolia.cms.security.SecurityCallbackFilter.doFilter(SecurityCallbackFilter.java:84)
+	at info.magnolia.cms.filters.OncePerRequestAbstractMgnlFilter.doFilter(OncePerRequestAbstractMgnlFilter.java:59)
+	at info.magnolia.cms.filters.MgnlFilterChain.doFilter(MgnlFilterChain.java:79)
+	at info.magnolia.cms.security.LogoutFilter.doFilter(LogoutFilter.java:94)
+	at info.magnolia.cms.filters.OncePerRequestAbstractMgnlFilter.doFilter(OncePerRequestAbstractMgnlFilter.java:59)
+	at info.magnolia.cms.filters.MgnlFilterChain.doFilter(MgnlFilterChain.java:79)
+	at info.magnolia.module.site.filters.SiteMergeFilter.doFilter(SiteMergeFilter.java:119)
+	at info.magnolia.cms.filters.AbstractMgnlFilter.doFilter(AbstractMgnlFilter.java:85)
+	at info.magnolia.cms.filters.MgnlFilterChain.doFilter(MgnlFilterChain.java:79)
+	at info.magnolia.cms.filters.MultiChannelFilter.doFilter(MultiChannelFilter.java:83)
+	at info.magnolia.cms.filters.AbstractMgnlFilter.doFilter(AbstractMgnlFilter.java:85)
+	at info.magnolia.cms.filters.MgnlFilterChain.doFilter(MgnlFilterChain.java:79)
+	at info.magnolia.module.cache.filter.GZipFilter.doFilter(GZipFilter.java:74)
+	at info.magnolia.cms.filters.OncePerRequestAbstractMgnlFilter.doFilter(OncePerRequestAbstractMgnlFilter.java:59)
+	at info.magnolia.cms.filters.MgnlFilterChain.doFilter(MgnlFilterChain.java:79)
+	at info.magnolia.cms.filters.MgnlFilterChain.doFilter(MgnlFilterChain.java:81)
+	at info.magnolia.cms.security.auth.login.LoginFilter.doFilter(LoginFilter.java:128)
+	at info.magnolia.cms.filters.AbstractMgnlFilter.doFilter(AbstractMgnlFilter.java:85)
+	at info.magnolia.cms.filters.MgnlFilterChain.doFilter(MgnlFilterChain.java:79)
+	at info.magnolia.cms.filters.MgnlFilterChain.doFilter(MgnlFilterChain.java:81)
+	at info.magnolia.cms.filters.MgnlFilterChain.doFilter(MgnlFilterChain.java:81)
+	at info.magnolia.cms.filters.MgnlFilterChain.doFilter(MgnlFilterChain.java:81)
+	at info.magnolia.cms.filters.ContentTypeFilter.doFilter(ContentTypeFilter.java:155)
+	at info.magnolia.cms.filters.AbstractMgnlFilter.doFilter(AbstractMgnlFilter.java:85)
+	at info.magnolia.cms.filters.MgnlFilterChain.doFilter(MgnlFilterChain.java:79)
+	at info.magnolia.cms.filters.ContextFilter.doFilter(ContextFilter.java:128)
+	at info.magnolia.cms.filters.AbstractMgnlFilter.doFilter(AbstractMgnlFilter.java:85)
+	at info.magnolia.cms.filters.MgnlFilterChain.doFilter(MgnlFilterChain.java:79)
+	at info.magnolia.cms.filters.CompositeFilter.doFilter(CompositeFilter.java:75)
+	at info.magnolia.cms.filters.AbstractMgnlFilter.doFilter(AbstractMgnlFilter.java:85)
+	at info.magnolia.cms.filters.SafeDestroyMgnlFilterWrapper.doFilter(SafeDestroyMgnlFilterWrapper.java:107)
+	at info.magnolia.cms.filters.MgnlFilterDispatcher.doDispatch(MgnlFilterDispatcher.java:67)
+	at info.magnolia.cms.filters.MgnlMainFilter.doFilter(MgnlMainFilter.java:110)
+	at info.magnolia.cms.filters.MgnlMainFilter.doFilter(MgnlMainFilter.java:96)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:687)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:890)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1787)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
