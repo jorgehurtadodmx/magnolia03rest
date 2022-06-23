@@ -137,4 +137,72 @@ The path that we set is always going to request a Post with the ID: 1. Now, let'
 
 Still in your academy-rest-client light module, and restClients, edit posts.yaml:
 
+baseUrl: https://jsonplaceholder.typicode.com
+restCalls:
+  single:
+    method: GET
+    entityClass: com.fasterxml.jackson.databind.JsonNode
+    path: /posts/{id}
+    defaultValues:
+      id: 1
 
+
+
+2. Use GET method.
+
+Work on the author instance.
+Re-open the Rest client app through the app launcher or find bar.
+
+Select the rest-client posts.
+
+Select the rest-call GET - /posts/1.
+Notice Method parameters automatically adds the id parameter. 
+
+Click Send request and observe the response.
+
+Try a couple modifications and review the response.
+
+
+{
+  "userId" : 1,
+  "id" : 2,
+  "title" : "qui est esse",
+  "body" : "est rerum tempore vitae\nsequi sint nihil reprehenderit dolor beatae ea dolores neque\nfugiat blanditiis voluptate porro vel nihil molestiae ut reiciendis\nqui aperiam non debitis possimus qui neque nisi nulla"
+}
+
+etc
+-----------------------
+
+Exercise - Playtime with Paths Part 3
+
+1. Modify the YAML definition.
+
+
+Let's try to play with the body property.
+
+Still in your academy-rest-client light module, and restClients, edit posts.yaml.
+
+In the same level as single, add the following restcall:
+baseUrl: https://jsonplaceholder.typicode.com
+restCalls:
+  create:
+    method: POST
+    entityClass: com.fasterxml.jackson.databind.JsonNode
+    path: /posts
+    body: '{"userId": 1, "title": "{title}", "body": "{body}"}'
+    headers:
+      Content-Type: "application/json; charset=UTF-8"
+
+
+2. Use POST method.
+
+
+
+Re-open the Rest client app through the app launcher or find bar.
+
+Select the posts and the post - /posts REST call.
+Notice Method parameters automatically adds the title and body parameters. 
+
+Click Send request and observe the response.
+
+Try a couple modifications and review the response.

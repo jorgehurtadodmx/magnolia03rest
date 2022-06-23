@@ -1,0 +1,8 @@
+baseUrl: https://jsonplaceholder.typicode.com
+restCalls:
+  byUserId:
+    method: GET
+    entityClass: com.fasterxml.jackson.databind.node.ArrayNode
+    path: /posts
+    queryParameters: {userId: "{theUserId}"}
+    defaultValues: {theUserId: 1}

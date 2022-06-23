@@ -1,0 +1,44 @@
+20
+The Rest Call - Headers
+
+We can modify the default request headers by setting a "header" property.
+For example if we want to declare the use of UTF8 we do the following
+    headers:
+      Content-Type: "application/json; charset=UTF-8"
+
+21
+The Rest Call - Cookies.
+The property cookies allows u to specify cookies to use with the Rest call.
+Very often used for personalization, session management and tracking. An example
+
+    cookies:
+      NEW_USER: newUser
+
+22
+
+The REST Call - Query Parameters.
+Instead of adding query parameters to the path, we can define them with the property 
+'queryParameters', and inside this property, key and value of variables to use
+
+  single:
+    method: get
+    entityClass: com.fasterxml.jackson.databind.JsonNode
+    path: /posts
+    queryParameters:
+      id: "{id}"
+
+
+23
+Exercise - Query Parameters and Me
+
+1. Modify the YAML definition.
+
+
+
+Let's try to play with the queryParameters property.
+
+Continue working in your academy-rest-client light module, and restClients folder.
+
+Create a new REST client restfn-posts.yaml and add the following:
+
+the result of the query are all the posts from the user with ID 1
