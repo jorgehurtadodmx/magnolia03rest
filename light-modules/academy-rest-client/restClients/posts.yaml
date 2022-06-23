@@ -1,6 +1,9 @@
 baseUrl: https://jsonplaceholder.typicode.com
 restCalls:
-  single:
-    method: get
+  create:
+    method: POST
     entityClass: com.fasterxml.jackson.databind.JsonNode
-    path: /posts/1
+    path: /posts
+    body: '{"userId": 1, "title": "{title}", "body": "{body}"}'
+    headers:
+      Content-Type: "application/json; charset=UTF-8"
