@@ -1,0 +1,111 @@
+5 to 12
+
+The rest client definition - Base URL
+
+baseURL is a required property
+baseURL is the URL that serves as the base for all Rest calls
+It servers as the suffix that is concatenated by a path properly defined in ech Rest call
+
+Examples of how to set the property>
+
+baseUrl> http,//restcountries.eu/v1/
+baseUrl> http,//restcountries.eu/v1/
+baseUrl> http,//restcountries.eu/rest
+More examples here https://git.magnolia-cms.com/projects/TRAINING/repos/academy-rest-client/commits/a44f13eae2799c1d0600ba513742e1a650afa44e
+
+
+
+6
+The rest client definition - Class and schema URL
+
+Class property defines the backend Java class definition to be used by this Rest Client.
+Magnolia provides with two options
+Default is  info.magnolia.rest.client.ConfiguredRestClientDefinition 
+
+example of configured class
+class: info.magnolia.openapi.client.OpenApiRestClientDefinition
+
+
+7 The rest client definition - Client factory class
+
+clientFactoryClass is the java class that does heavy lifting
+
+rarely used anyway
+
+The default value is fine to be used
+
+There are two defaults
+if we are using
+ConfiguredRestClientDefinition, the value is
+clientFactoryClass: info.magnolia.rest.client.factory.DefaultClientFactory
+
+
+if we use the the OpenApiRestClientDefinition then the value is
+
+clientFactoryClass: info.magnolia.openapi.client.factory.OpenApiClientFactory
+
+
+8
+
+The rest client definition
+client configuration class
+
+Using clientConfigurationClass allows you to be able to create your own custom client builder
+ using a java class, using JAX/RS
+clientConfigurationClass: com.mycompany.jaxrs.MyCustomConfiguraiton
+https://en.wikipedia.org/wiki/Jakarta_RESTful_Web_Services important
+
+9
+
+The rest client definition - Components
+
+it is possible to add a
+list of componentes
+ java classes that override other classes
+
+like
+  - javax.ws.rs.client.ClientRequestFilter
+  - javax.ws.rs.client.ClientResponseFilter
+
+that are executed after each request
+
+sample definitions of components
+com.mycompany.jaxrs.MyCustomClientResponseFilter
+com.mycompany.jaxrs.MyCustomClientRequestFilter
+
+10
+The rest client definition - enabled and name
+
+If we want to disable a rest client, we put a property 
+enable: false
+
+Useful for testing and maintenance
+
+If we want to set the name of the rest client to other thing that the name of the file
+name: posts # You shouldn't set this as the file name will set this value.
+we can usethe property name and set a name. It is recommended to not do this to avoid future confusions.
+
+
+11
+The Rest Client Definition - Exception Handler Class.
+
+To customize behaviours of exceptions we create a class that extends
+javax.ws.rs.WebApplicationException.
+exceptionHandlerClass: com.mycompany.jaxrs.MyCustomExceptionHandler
+
+We set the exceptionHandlerClass property com.mycompany.jaxrs.MyCustomExceptionHandler
+therefore we can handle Rest codes like
+404
+501 and more
+
+12
+The Rest Client Definition - Proxies. 
+Just add them to the proxies property
+The proxy definition must extend 
+info.magnolia.rest.client.proxy.ProxyDefinition
+
+examples
+
+proxies:
+  myFirstProxy: com.mycompany.jaxrs.MyFirstProxyDefinition
+  mySecondProxy: com.mycompany.jaxrs.MySecondProxyDefinition

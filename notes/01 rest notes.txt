@@ -30,4 +30,17 @@ REST clients registry uses the YAML file name as reference.
 
 
 4 ------ Exercise - My First Rest Client
-	
+1. Create a new YAML definition.
+
+In your academy-rest-client light module, go to restClients.
+
+In it, add a new YAML definition and name it countries.
+
+Paste the following configuration in this new file:
+
+baseUrl: https://restcountries.eu/rest/v2/
+restCalls:
+  allCountries:
+    method: GET
+    entityClass: com.fasterxml.jackson.databind.JsonNode
+    path: /all

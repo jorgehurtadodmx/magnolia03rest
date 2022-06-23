@@ -1,0 +1,729 @@
+23-Jun-2022 11:42:11.041 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.64
+23-Jun-2022 11:42:11.041 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jun 2 2022 19:08:46 UTC
+23-Jun-2022 11:42:11.041 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.64.0
+23-Jun-2022 11:42:11.041 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 11
+23-Jun-2022 11:42:11.041 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+23-Jun-2022 11:42:11.041 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+23-Jun-2022 11:42:11.041 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk-11.0.15
+23-Jun-2022 11:42:11.041 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           11.0.15+8-LTS-149
+23-Jun-2022 11:42:11.041 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+23-Jun-2022 11:42:11.041 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\j.hurtado.de.moxo\magnolia03rest\apache-tomcat
+23-Jun-2022 11:42:11.041 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\j.hurtado.de.moxo\magnolia03rest\apache-tomcat
+23-Jun-2022 11:42:11.057 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+23-Jun-2022 11:42:11.057 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+23-Jun-2022 11:42:11.057 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+23-Jun-2022 11:42:11.057 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+23-Jun-2022 11:42:11.057 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+23-Jun-2022 11:42:11.057 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\j.hurtado.de.moxo\magnolia03rest\apache-tomcat\conf\logging.properties
+23-Jun-2022 11:42:11.057 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+23-Jun-2022 11:42:11.057 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+23-Jun-2022 11:42:11.057 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+23-Jun-2022 11:42:11.057 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xms64M
+23-Jun-2022 11:42:11.057 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xmx2048M
+23-Jun-2022 11:42:11.057 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.awt.headless=true
+23-Jun-2022 11:42:11.057 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+23-Jun-2022 11:42:11.057 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\j.hurtado.de.moxo\magnolia03rest\apache-tomcat
+23-Jun-2022 11:42:11.057 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\j.hurtado.de.moxo\magnolia03rest\apache-tomcat
+23-Jun-2022 11:42:11.057 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\j.hurtado.de.moxo\magnolia03rest\apache-tomcat\temp
+23-Jun-2022 11:42:11.072 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [C:\Program Files\Java\jdk-11.0.15\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;C:\Program Files\Common Files\Oracle\Java\javapath;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\Program Files (x86)\Pulse Secure\VC142.CRT\X64\;C:\Program Files (x86)\Pulse Secure\VC142.CRT\X86\;C:\Program Files (x86)\Common Files\Pulse Secure\VC142.CRT\X64\;C:\Program Files (x86)\Common Files\Pulse Secure\VC142.CRT\X86\;C:\Program Files\Java\jdk-11.0.15;C:\Program Files\nodejs\;C:\Program Files\Java\jdk-11.0.15;C:\Users\j.hurtado.de.moxo\AppData\Local\Microsoft\WindowsApps;C:\Users\j.hurtado.de.moxo\AppData\Roaming\npm;C:\Users\j.hurtado.de.moxo\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\j.hurtado.de.moxo\AppData\Local\Programs\Git\cmd;.]
+23-Jun-2022 11:42:11.418 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+23-Jun-2022 11:42:11.449 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [680] milliseconds
+23-Jun-2022 11:42:11.527 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+23-Jun-2022 11:42:11.527 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.64]
+23-Jun-2022 11:42:11.543 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\j.hurtado.de.moxo\magnolia03rest\apache-tomcat\webapps\magnoliaAuthor]
+23-Jun-2022 11:43:42.466 WARNING [main] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [266] milliseconds.
+23-Jun-2022 11:43:44.303 INFO [main] org.atmosphere.cpr.AtmosphereFramework.addAtmosphereHandler Installed AtmosphereHandler com.vaadin.server.communication.PushAtmosphereHandler mapped to context-path: /*
+23-Jun-2022 11:43:44.303 INFO [main] org.atmosphere.cpr.AtmosphereFramework.addAtmosphereHandler Installed the following AtmosphereInterceptor mapped to AtmosphereHandler com.vaadin.server.communication.PushAtmosphereHandler
+23-Jun-2022 11:43:44.444 INFO [main] org.atmosphere.cpr.AtmosphereFramework.autoConfigureService Atmosphere is using org.atmosphere.util.VoidAnnotationProcessor for processing annotation
+23-Jun-2022 11:43:44.475 INFO [main] org.atmosphere.util.ForkJoinPool.<init> Using ForkJoinPool  java.util.concurrent.ForkJoinPool. Set the org.atmosphere.cpr.broadcaster.maxAsyncWriteThreads to -1 to fully use its power.
+23-Jun-2022 11:43:44.497 INFO [main] org.atmosphere.cpr.AtmosphereFramework.initWebSocket Installed WebSocketProtocol org.atmosphere.websocket.protocol.SimpleHttpProtocol 
+23-Jun-2022 11:43:44.554 INFO [main] org.atmosphere.cpr.AtmosphereFramework.configureAtmosphereInterceptor Installing Default AtmosphereInterceptors
+23-Jun-2022 11:43:44.554 INFO [main] org.atmosphere.cpr.AtmosphereFramework.newAInterceptor 	org.atmosphere.interceptor.CorsInterceptor : CORS Interceptor Support
+23-Jun-2022 11:43:44.554 INFO [main] org.atmosphere.cpr.AtmosphereFramework.newAInterceptor 	org.atmosphere.interceptor.CacheHeadersInterceptor : Default Response's Headers Interceptor
+23-Jun-2022 11:43:44.554 INFO [main] org.atmosphere.cpr.AtmosphereFramework.newAInterceptor 	org.atmosphere.interceptor.PaddingAtmosphereInterceptor : Browser Padding Interceptor Support
+23-Jun-2022 11:43:44.554 INFO [main] org.atmosphere.cpr.AtmosphereFramework.newAInterceptor 	org.atmosphere.interceptor.AndroidAtmosphereInterceptor : Android Interceptor Support
+23-Jun-2022 11:43:44.554 INFO [main] org.atmosphere.cpr.AtmosphereFramework.newAInterceptor 	org.atmosphere.interceptor.HeartbeatInterceptor : Heartbeat Interceptor Support
+23-Jun-2022 11:43:44.554 INFO [main] org.atmosphere.cpr.AtmosphereFramework.newAInterceptor 	org.atmosphere.interceptor.SSEAtmosphereInterceptor : SSE Interceptor Support
+23-Jun-2022 11:43:44.554 INFO [main] org.atmosphere.cpr.AtmosphereFramework.newAInterceptor 	org.atmosphere.interceptor.JSONPAtmosphereInterceptor : JSONP Interceptor Support
+23-Jun-2022 11:43:44.570 INFO [main] org.atmosphere.cpr.AtmosphereFramework.newAInterceptor 	org.atmosphere.interceptor.JavaScriptProtocol : Atmosphere JavaScript Protocol
+23-Jun-2022 11:43:44.570 INFO [main] org.atmosphere.cpr.AtmosphereFramework.newAInterceptor 	org.atmosphere.interceptor.WebSocketMessageSuspendInterceptor : org.atmosphere.interceptor.WebSocketMessageSuspendInterceptor
+23-Jun-2022 11:43:44.570 INFO [main] org.atmosphere.cpr.AtmosphereFramework.newAInterceptor 	org.atmosphere.interceptor.OnDisconnectInterceptor : Browser disconnection detection
+23-Jun-2022 11:43:44.570 INFO [main] org.atmosphere.cpr.AtmosphereFramework.newAInterceptor 	org.atmosphere.interceptor.IdleResourceInterceptor : org.atmosphere.interceptor.IdleResourceInterceptor
+23-Jun-2022 11:43:44.570 INFO [main] org.atmosphere.cpr.AtmosphereFramework.configureAtmosphereInterceptor Set org.atmosphere.cpr.AtmosphereInterceptor.disableDefaults to disable them.
+23-Jun-2022 11:43:44.570 INFO [main] org.atmosphere.cpr.AtmosphereFramework.addInterceptorToAllWrappers Installed AtmosphereInterceptor CORS Interceptor Support with priority FIRST_BEFORE_DEFAULT 
+23-Jun-2022 11:43:44.570 INFO [main] org.atmosphere.cpr.AtmosphereFramework.addInterceptorToAllWrappers Installed AtmosphereInterceptor Default Response's Headers Interceptor with priority AFTER_DEFAULT 
+23-Jun-2022 11:43:44.570 INFO [main] org.atmosphere.cpr.AtmosphereFramework.addInterceptorToAllWrappers Installed AtmosphereInterceptor Browser Padding Interceptor Support with priority AFTER_DEFAULT 
+23-Jun-2022 11:43:44.570 INFO [main] org.atmosphere.cpr.AtmosphereFramework.addInterceptorToAllWrappers Installed AtmosphereInterceptor Android Interceptor Support with priority AFTER_DEFAULT 
+23-Jun-2022 11:43:44.570 INFO [main] org.atmosphere.interceptor.HeartbeatInterceptor.configure HeartbeatInterceptor configured with padding value 'X', client frequency 60 seconds and server frequency 0 seconds
+23-Jun-2022 11:43:44.570 INFO [main] org.atmosphere.cpr.AtmosphereFramework.addInterceptorToAllWrappers Installed AtmosphereInterceptor Heartbeat Interceptor Support with priority AFTER_DEFAULT 
+23-Jun-2022 11:43:44.570 INFO [main] org.atmosphere.cpr.AtmosphereFramework.addInterceptorToAllWrappers Installed AtmosphereInterceptor SSE Interceptor Support with priority AFTER_DEFAULT 
+23-Jun-2022 11:43:44.570 INFO [main] org.atmosphere.cpr.AtmosphereFramework.addInterceptorToAllWrappers Installed AtmosphereInterceptor JSONP Interceptor Support with priority AFTER_DEFAULT 
+23-Jun-2022 11:43:44.585 INFO [main] org.atmosphere.cpr.AtmosphereFramework.addInterceptorToAllWrappers Installed AtmosphereInterceptor Atmosphere JavaScript Protocol with priority AFTER_DEFAULT 
+23-Jun-2022 11:43:44.585 INFO [main] org.atmosphere.cpr.AtmosphereFramework.addInterceptorToAllWrappers Installed AtmosphereInterceptor org.atmosphere.interceptor.WebSocketMessageSuspendInterceptor with priority AFTER_DEFAULT 
+23-Jun-2022 11:43:44.585 INFO [main] org.atmosphere.cpr.AtmosphereFramework.addInterceptorToAllWrappers Installed AtmosphereInterceptor Browser disconnection detection with priority AFTER_DEFAULT 
+23-Jun-2022 11:43:44.585 INFO [main] org.atmosphere.cpr.AtmosphereFramework.addInterceptorToAllWrappers Installed AtmosphereInterceptor org.atmosphere.interceptor.IdleResourceInterceptor with priority BEFORE_DEFAULT 
+23-Jun-2022 11:43:44.585 INFO [main] org.atmosphere.cpr.AtmosphereFramework.info Using EndpointMapper class org.atmosphere.util.DefaultEndpointMapper
+23-Jun-2022 11:43:44.585 INFO [main] org.atmosphere.cpr.AtmosphereFramework.info Using BroadcasterCache: org.atmosphere.cache.UUIDBroadcasterCache
+23-Jun-2022 11:43:44.585 INFO [main] org.atmosphere.cpr.AtmosphereFramework.info Default Broadcaster Class: org.atmosphere.cpr.DefaultBroadcaster
+23-Jun-2022 11:43:44.585 INFO [main] org.atmosphere.cpr.AtmosphereFramework.info Broadcaster Shared List Resources: false
+23-Jun-2022 11:43:44.585 INFO [main] org.atmosphere.cpr.AtmosphereFramework.info Broadcaster Polling Wait Time 100
+23-Jun-2022 11:43:44.585 INFO [main] org.atmosphere.cpr.AtmosphereFramework.info Shared ExecutorService supported: true
+23-Jun-2022 11:43:44.585 INFO [main] org.atmosphere.cpr.AtmosphereFramework.info Messaging ExecutorService Pool Size unavailable - Not instance of ThreadPoolExecutor
+23-Jun-2022 11:43:44.598 INFO [main] org.atmosphere.cpr.AtmosphereFramework.info Async I/O Thread Pool Size: 200
+23-Jun-2022 11:43:44.598 INFO [main] org.atmosphere.cpr.AtmosphereFramework.info Using BroadcasterFactory: org.atmosphere.cpr.DefaultBroadcasterFactory
+23-Jun-2022 11:43:44.598 INFO [main] org.atmosphere.cpr.AtmosphereFramework.info Using AtmosphereResurceFactory: org.atmosphere.cpr.DefaultAtmosphereResourceFactory
+23-Jun-2022 11:43:44.598 INFO [main] org.atmosphere.cpr.AtmosphereFramework.info Using WebSocketProcessor: org.atmosphere.websocket.DefaultWebSocketProcessor
+23-Jun-2022 11:43:44.601 INFO [main] org.atmosphere.cpr.AtmosphereFramework.info Invoke AtmosphereInterceptor on WebSocket message true
+23-Jun-2022 11:43:44.601 INFO [main] org.atmosphere.cpr.AtmosphereFramework.info HttpSession supported: true
+23-Jun-2022 11:43:44.601 INFO [main] org.atmosphere.cpr.AtmosphereFramework.info Atmosphere is using org.atmosphere.inject.InjectableObjectFactory for dependency injection and object creation
+23-Jun-2022 11:43:44.601 INFO [main] org.atmosphere.cpr.AtmosphereFramework.info Atmosphere is using async support: org.atmosphere.container.Servlet30CometSupport running under container: Apache Tomcat/9.0.64 using javax.servlet/3.0
+23-Jun-2022 11:43:44.601 INFO [main] org.atmosphere.cpr.AtmosphereFramework.info Atmosphere Framework 2.4.30.vaadin4 started.
+23-Jun-2022 11:43:44.617 INFO [main] org.atmosphere.cpr.AtmosphereFramework.addInterceptorToAllWrappers Installed AtmosphereInterceptor  Track Message Size Interceptor using | with priority BEFORE_DEFAULT 
+23-Jun-2022 11:43:45.683 INFO [main] org.atmosphere.cpr.AtmosphereFramework.addAtmosphereHandler Installed AtmosphereHandler com.vaadin.server.communication.PushAtmosphereHandler mapped to context-path: /*
+23-Jun-2022 11:43:45.683 INFO [main] org.atmosphere.cpr.AtmosphereFramework.addAtmosphereHandler Installed the following AtmosphereInterceptor mapped to AtmosphereHandler com.vaadin.server.communication.PushAtmosphereHandler
+23-Jun-2022 11:43:45.731 INFO [main] org.atmosphere.cpr.AtmosphereFramework.autoConfigureService Atmosphere is using org.atmosphere.util.VoidAnnotationProcessor for processing annotation
+23-Jun-2022 11:43:45.746 INFO [main] org.atmosphere.util.ForkJoinPool.<init> Using ForkJoinPool  java.util.concurrent.ForkJoinPool. Set the org.atmosphere.cpr.broadcaster.maxAsyncWriteThreads to -1 to fully use its power.
+23-Jun-2022 11:43:45.746 INFO [main] org.atmosphere.cpr.AtmosphereFramework.initWebSocket Installed WebSocketProtocol org.atmosphere.websocket.protocol.SimpleHttpProtocol 
+23-Jun-2022 11:43:45.809 INFO [main] org.atmosphere.cpr.AtmosphereFramework.configureAtmosphereInterceptor Installing Default AtmosphereInterceptors
+23-Jun-2022 11:43:45.809 INFO [main] org.atmosphere.cpr.AtmosphereFramework.newAInterceptor 	org.atmosphere.interceptor.CorsInterceptor : CORS Interceptor Support
+23-Jun-2022 11:43:45.809 INFO [main] org.atmosphere.cpr.AtmosphereFramework.newAInterceptor 	org.atmosphere.interceptor.CacheHeadersInterceptor : Default Response's Headers Interceptor
+23-Jun-2022 11:43:45.809 INFO [main] org.atmosphere.cpr.AtmosphereFramework.newAInterceptor 	org.atmosphere.interceptor.PaddingAtmosphereInterceptor : Browser Padding Interceptor Support
+23-Jun-2022 11:43:45.809 INFO [main] org.atmosphere.cpr.AtmosphereFramework.newAInterceptor 	org.atmosphere.interceptor.AndroidAtmosphereInterceptor : Android Interceptor Support
+23-Jun-2022 11:43:45.809 INFO [main] org.atmosphere.cpr.AtmosphereFramework.newAInterceptor 	org.atmosphere.interceptor.HeartbeatInterceptor : Heartbeat Interceptor Support
+23-Jun-2022 11:43:45.809 INFO [main] org.atmosphere.cpr.AtmosphereFramework.newAInterceptor 	org.atmosphere.interceptor.SSEAtmosphereInterceptor : SSE Interceptor Support
+23-Jun-2022 11:43:45.809 INFO [main] org.atmosphere.cpr.AtmosphereFramework.newAInterceptor 	org.atmosphere.interceptor.JSONPAtmosphereInterceptor : JSONP Interceptor Support
+23-Jun-2022 11:43:45.809 INFO [main] org.atmosphere.cpr.AtmosphereFramework.newAInterceptor 	org.atmosphere.interceptor.JavaScriptProtocol : Atmosphere JavaScript Protocol
+23-Jun-2022 11:43:45.809 INFO [main] org.atmosphere.cpr.AtmosphereFramework.newAInterceptor 	org.atmosphere.interceptor.WebSocketMessageSuspendInterceptor : org.atmosphere.interceptor.WebSocketMessageSuspendInterceptor
+23-Jun-2022 11:43:45.825 INFO [main] org.atmosphere.cpr.AtmosphereFramework.newAInterceptor 	org.atmosphere.interceptor.OnDisconnectInterceptor : Browser disconnection detection
+23-Jun-2022 11:43:45.825 INFO [main] org.atmosphere.cpr.AtmosphereFramework.newAInterceptor 	org.atmosphere.interceptor.IdleResourceInterceptor : org.atmosphere.interceptor.IdleResourceInterceptor
+23-Jun-2022 11:43:45.825 INFO [main] org.atmosphere.cpr.AtmosphereFramework.configureAtmosphereInterceptor Set org.atmosphere.cpr.AtmosphereInterceptor.disableDefaults to disable them.
+23-Jun-2022 11:43:45.825 INFO [main] org.atmosphere.cpr.AtmosphereFramework.addInterceptorToAllWrappers Installed AtmosphereInterceptor CORS Interceptor Support with priority FIRST_BEFORE_DEFAULT 
+23-Jun-2022 11:43:45.825 INFO [main] org.atmosphere.cpr.AtmosphereFramework.addInterceptorToAllWrappers Installed AtmosphereInterceptor Default Response's Headers Interceptor with priority AFTER_DEFAULT 
+23-Jun-2022 11:43:45.825 INFO [main] org.atmosphere.cpr.AtmosphereFramework.addInterceptorToAllWrappers Installed AtmosphereInterceptor Browser Padding Interceptor Support with priority AFTER_DEFAULT 
+23-Jun-2022 11:43:45.825 INFO [main] org.atmosphere.cpr.AtmosphereFramework.addInterceptorToAllWrappers Installed AtmosphereInterceptor Android Interceptor Support with priority AFTER_DEFAULT 
+23-Jun-2022 11:43:45.825 INFO [main] org.atmosphere.interceptor.HeartbeatInterceptor.configure HeartbeatInterceptor configured with padding value 'X', client frequency 60 seconds and server frequency 0 seconds
+23-Jun-2022 11:43:45.825 INFO [main] org.atmosphere.cpr.AtmosphereFramework.addInterceptorToAllWrappers Installed AtmosphereInterceptor Heartbeat Interceptor Support with priority AFTER_DEFAULT 
+23-Jun-2022 11:43:45.825 INFO [main] org.atmosphere.cpr.AtmosphereFramework.addInterceptorToAllWrappers Installed AtmosphereInterceptor SSE Interceptor Support with priority AFTER_DEFAULT 
+23-Jun-2022 11:43:45.825 INFO [main] org.atmosphere.cpr.AtmosphereFramework.addInterceptorToAllWrappers Installed AtmosphereInterceptor JSONP Interceptor Support with priority AFTER_DEFAULT 
+23-Jun-2022 11:43:45.825 INFO [main] org.atmosphere.cpr.AtmosphereFramework.addInterceptorToAllWrappers Installed AtmosphereInterceptor Atmosphere JavaScript Protocol with priority AFTER_DEFAULT 
+23-Jun-2022 11:43:45.825 INFO [main] org.atmosphere.cpr.AtmosphereFramework.addInterceptorToAllWrappers Installed AtmosphereInterceptor org.atmosphere.interceptor.WebSocketMessageSuspendInterceptor with priority AFTER_DEFAULT 
+23-Jun-2022 11:43:45.825 INFO [main] org.atmosphere.cpr.AtmosphereFramework.addInterceptorToAllWrappers Installed AtmosphereInterceptor Browser disconnection detection with priority AFTER_DEFAULT 
+23-Jun-2022 11:43:45.841 INFO [main] org.atmosphere.cpr.AtmosphereFramework.addInterceptorToAllWrappers Installed AtmosphereInterceptor org.atmosphere.interceptor.IdleResourceInterceptor with priority BEFORE_DEFAULT 
+23-Jun-2022 11:43:45.841 INFO [main] org.atmosphere.cpr.AtmosphereFramework.info Using EndpointMapper class org.atmosphere.util.DefaultEndpointMapper
+23-Jun-2022 11:43:45.841 INFO [main] org.atmosphere.cpr.AtmosphereFramework.info Using BroadcasterCache: org.atmosphere.cache.UUIDBroadcasterCache
+23-Jun-2022 11:43:45.841 INFO [main] org.atmosphere.cpr.AtmosphereFramework.info Default Broadcaster Class: org.atmosphere.cpr.DefaultBroadcaster
+23-Jun-2022 11:43:45.841 INFO [main] org.atmosphere.cpr.AtmosphereFramework.info Broadcaster Shared List Resources: false
+23-Jun-2022 11:43:45.841 INFO [main] org.atmosphere.cpr.AtmosphereFramework.info Broadcaster Polling Wait Time 100
+23-Jun-2022 11:43:45.841 INFO [main] org.atmosphere.cpr.AtmosphereFramework.info Shared ExecutorService supported: true
+23-Jun-2022 11:43:45.841 INFO [main] org.atmosphere.cpr.AtmosphereFramework.info Messaging ExecutorService Pool Size unavailable - Not instance of ThreadPoolExecutor
+23-Jun-2022 11:43:45.841 INFO [main] org.atmosphere.cpr.AtmosphereFramework.info Async I/O Thread Pool Size: 200
+23-Jun-2022 11:43:45.841 INFO [main] org.atmosphere.cpr.AtmosphereFramework.info Using BroadcasterFactory: org.atmosphere.cpr.DefaultBroadcasterFactory
+23-Jun-2022 11:43:45.841 INFO [main] org.atmosphere.cpr.AtmosphereFramework.info Using AtmosphereResurceFactory: org.atmosphere.cpr.DefaultAtmosphereResourceFactory
+23-Jun-2022 11:43:45.856 INFO [main] org.atmosphere.cpr.AtmosphereFramework.info Using WebSocketProcessor: org.atmosphere.websocket.DefaultWebSocketProcessor
+23-Jun-2022 11:43:45.856 INFO [main] org.atmosphere.cpr.AtmosphereFramework.info Invoke AtmosphereInterceptor on WebSocket message true
+23-Jun-2022 11:43:45.856 INFO [main] org.atmosphere.cpr.AtmosphereFramework.info HttpSession supported: true
+23-Jun-2022 11:43:45.856 INFO [main] org.atmosphere.cpr.AtmosphereFramework.info Atmosphere is using org.atmosphere.inject.InjectableObjectFactory for dependency injection and object creation
+23-Jun-2022 11:43:45.856 INFO [main] org.atmosphere.cpr.AtmosphereFramework.info Atmosphere is using async support: org.atmosphere.container.Servlet30CometSupport running under container: Apache Tomcat/9.0.64 using javax.servlet/3.0
+23-Jun-2022 11:43:45.856 INFO [main] org.atmosphere.cpr.AtmosphereFramework.info Atmosphere Framework 2.4.30.vaadin4 started.
+23-Jun-2022 11:43:45.856 INFO [main] org.atmosphere.cpr.AtmosphereFramework.addInterceptorToAllWrappers Installed AtmosphereInterceptor  Track Message Size Interceptor using | with priority BEFORE_DEFAULT 
+23-Jun-2022 11:43:45.872 INFO [main] org.atmosphere.cpr.AtmosphereFramework.addAtmosphereHandler Installed AtmosphereHandler com.vaadin.server.communication.PushAtmosphereHandler mapped to context-path: /*
+23-Jun-2022 11:43:45.872 INFO [main] org.atmosphere.cpr.AtmosphereFramework.addAtmosphereHandler Installed the following AtmosphereInterceptor mapped to AtmosphereHandler com.vaadin.server.communication.PushAtmosphereHandler
+23-Jun-2022 11:43:45.892 INFO [main] org.atmosphere.cpr.AtmosphereFramework.autoConfigureService Atmosphere is using org.atmosphere.util.VoidAnnotationProcessor for processing annotation
+23-Jun-2022 11:43:45.903 INFO [main] org.atmosphere.util.ForkJoinPool.<init> Using ForkJoinPool  java.util.concurrent.ForkJoinPool. Set the org.atmosphere.cpr.broadcaster.maxAsyncWriteThreads to -1 to fully use its power.
+23-Jun-2022 11:43:45.903 INFO [main] org.atmosphere.cpr.AtmosphereFramework.initWebSocket Installed WebSocketProtocol org.atmosphere.websocket.protocol.SimpleHttpProtocol 
+23-Jun-2022 11:43:45.935 INFO [main] org.atmosphere.cpr.AtmosphereFramework.configureAtmosphereInterceptor Installing Default AtmosphereInterceptors
+23-Jun-2022 11:43:45.935 INFO [main] org.atmosphere.cpr.AtmosphereFramework.newAInterceptor 	org.atmosphere.interceptor.CorsInterceptor : CORS Interceptor Support
+23-Jun-2022 11:43:45.935 INFO [main] org.atmosphere.cpr.AtmosphereFramework.newAInterceptor 	org.atmosphere.interceptor.CacheHeadersInterceptor : Default Response's Headers Interceptor
+23-Jun-2022 11:43:45.950 INFO [main] org.atmosphere.cpr.AtmosphereFramework.newAInterceptor 	org.atmosphere.interceptor.PaddingAtmosphereInterceptor : Browser Padding Interceptor Support
+23-Jun-2022 11:43:45.950 INFO [main] org.atmosphere.cpr.AtmosphereFramework.newAInterceptor 	org.atmosphere.interceptor.AndroidAtmosphereInterceptor : Android Interceptor Support
+23-Jun-2022 11:43:45.950 INFO [main] org.atmosphere.cpr.AtmosphereFramework.newAInterceptor 	org.atmosphere.interceptor.HeartbeatInterceptor : Heartbeat Interceptor Support
+23-Jun-2022 11:43:45.950 INFO [main] org.atmosphere.cpr.AtmosphereFramework.newAInterceptor 	org.atmosphere.interceptor.SSEAtmosphereInterceptor : SSE Interceptor Support
+23-Jun-2022 11:43:45.950 INFO [main] org.atmosphere.cpr.AtmosphereFramework.newAInterceptor 	org.atmosphere.interceptor.JSONPAtmosphereInterceptor : JSONP Interceptor Support
+23-Jun-2022 11:43:45.950 INFO [main] org.atmosphere.cpr.AtmosphereFramework.newAInterceptor 	org.atmosphere.interceptor.JavaScriptProtocol : Atmosphere JavaScript Protocol
+23-Jun-2022 11:43:45.950 INFO [main] org.atmosphere.cpr.AtmosphereFramework.newAInterceptor 	org.atmosphere.interceptor.WebSocketMessageSuspendInterceptor : org.atmosphere.interceptor.WebSocketMessageSuspendInterceptor
+23-Jun-2022 11:43:45.950 INFO [main] org.atmosphere.cpr.AtmosphereFramework.newAInterceptor 	org.atmosphere.interceptor.OnDisconnectInterceptor : Browser disconnection detection
+23-Jun-2022 11:43:45.950 INFO [main] org.atmosphere.cpr.AtmosphereFramework.newAInterceptor 	org.atmosphere.interceptor.IdleResourceInterceptor : org.atmosphere.interceptor.IdleResourceInterceptor
+23-Jun-2022 11:43:45.950 INFO [main] org.atmosphere.cpr.AtmosphereFramework.configureAtmosphereInterceptor Set org.atmosphere.cpr.AtmosphereInterceptor.disableDefaults to disable them.
+23-Jun-2022 11:43:45.950 INFO [main] org.atmosphere.cpr.AtmosphereFramework.addInterceptorToAllWrappers Installed AtmosphereInterceptor CORS Interceptor Support with priority FIRST_BEFORE_DEFAULT 
+23-Jun-2022 11:43:45.950 INFO [main] org.atmosphere.cpr.AtmosphereFramework.addInterceptorToAllWrappers Installed AtmosphereInterceptor Default Response's Headers Interceptor with priority AFTER_DEFAULT 
+23-Jun-2022 11:43:45.950 INFO [main] org.atmosphere.cpr.AtmosphereFramework.addInterceptorToAllWrappers Installed AtmosphereInterceptor Browser Padding Interceptor Support with priority AFTER_DEFAULT 
+23-Jun-2022 11:43:45.950 INFO [main] org.atmosphere.cpr.AtmosphereFramework.addInterceptorToAllWrappers Installed AtmosphereInterceptor Android Interceptor Support with priority AFTER_DEFAULT 
+23-Jun-2022 11:43:45.950 INFO [main] org.atmosphere.interceptor.HeartbeatInterceptor.configure HeartbeatInterceptor configured with padding value 'X', client frequency 60 seconds and server frequency 0 seconds
+23-Jun-2022 11:43:45.950 INFO [main] org.atmosphere.cpr.AtmosphereFramework.addInterceptorToAllWrappers Installed AtmosphereInterceptor Heartbeat Interceptor Support with priority AFTER_DEFAULT 
+23-Jun-2022 11:43:45.950 INFO [main] org.atmosphere.cpr.AtmosphereFramework.addInterceptorToAllWrappers Installed AtmosphereInterceptor SSE Interceptor Support with priority AFTER_DEFAULT 
+23-Jun-2022 11:43:45.950 INFO [main] org.atmosphere.cpr.AtmosphereFramework.addInterceptorToAllWrappers Installed AtmosphereInterceptor JSONP Interceptor Support with priority AFTER_DEFAULT 
+23-Jun-2022 11:43:45.950 INFO [main] org.atmosphere.cpr.AtmosphereFramework.addInterceptorToAllWrappers Installed AtmosphereInterceptor Atmosphere JavaScript Protocol with priority AFTER_DEFAULT 
+23-Jun-2022 11:43:45.950 INFO [main] org.atmosphere.cpr.AtmosphereFramework.addInterceptorToAllWrappers Installed AtmosphereInterceptor org.atmosphere.interceptor.WebSocketMessageSuspendInterceptor with priority AFTER_DEFAULT 
+23-Jun-2022 11:43:45.950 INFO [main] org.atmosphere.cpr.AtmosphereFramework.addInterceptorToAllWrappers Installed AtmosphereInterceptor Browser disconnection detection with priority AFTER_DEFAULT 
+23-Jun-2022 11:43:45.966 INFO [main] org.atmosphere.cpr.AtmosphereFramework.addInterceptorToAllWrappers Installed AtmosphereInterceptor org.atmosphere.interceptor.IdleResourceInterceptor with priority BEFORE_DEFAULT 
+23-Jun-2022 11:43:45.966 INFO [main] org.atmosphere.cpr.AtmosphereFramework.info Using EndpointMapper class org.atmosphere.util.DefaultEndpointMapper
+23-Jun-2022 11:43:45.966 INFO [main] org.atmosphere.cpr.AtmosphereFramework.info Using BroadcasterCache: org.atmosphere.cache.UUIDBroadcasterCache
+23-Jun-2022 11:43:45.966 INFO [main] org.atmosphere.cpr.AtmosphereFramework.info Default Broadcaster Class: org.atmosphere.cpr.DefaultBroadcaster
+23-Jun-2022 11:43:45.966 INFO [main] org.atmosphere.cpr.AtmosphereFramework.info Broadcaster Shared List Resources: false
+23-Jun-2022 11:43:45.966 INFO [main] org.atmosphere.cpr.AtmosphereFramework.info Broadcaster Polling Wait Time 100
+23-Jun-2022 11:43:45.966 INFO [main] org.atmosphere.cpr.AtmosphereFramework.info Shared ExecutorService supported: true
+23-Jun-2022 11:43:45.966 INFO [main] org.atmosphere.cpr.AtmosphereFramework.info Messaging ExecutorService Pool Size unavailable - Not instance of ThreadPoolExecutor
+23-Jun-2022 11:43:45.966 INFO [main] org.atmosphere.cpr.AtmosphereFramework.info Async I/O Thread Pool Size: 200
+23-Jun-2022 11:43:45.966 INFO [main] org.atmosphere.cpr.AtmosphereFramework.info Using BroadcasterFactory: org.atmosphere.cpr.DefaultBroadcasterFactory
+23-Jun-2022 11:43:45.966 INFO [main] org.atmosphere.cpr.AtmosphereFramework.info Using AtmosphereResurceFactory: org.atmosphere.cpr.DefaultAtmosphereResourceFactory
+23-Jun-2022 11:43:45.966 INFO [main] org.atmosphere.cpr.AtmosphereFramework.info Using WebSocketProcessor: org.atmosphere.websocket.DefaultWebSocketProcessor
+23-Jun-2022 11:43:45.966 INFO [main] org.atmosphere.cpr.AtmosphereFramework.info Invoke AtmosphereInterceptor on WebSocket message true
+23-Jun-2022 11:43:45.966 INFO [main] org.atmosphere.cpr.AtmosphereFramework.info HttpSession supported: true
+23-Jun-2022 11:43:45.981 INFO [main] org.atmosphere.cpr.AtmosphereFramework.info Atmosphere is using org.atmosphere.inject.InjectableObjectFactory for dependency injection and object creation
+23-Jun-2022 11:43:45.981 INFO [main] org.atmosphere.cpr.AtmosphereFramework.info Atmosphere is using async support: org.atmosphere.container.Servlet30CometSupport running under container: Apache Tomcat/9.0.64 using javax.servlet/3.0
+23-Jun-2022 11:43:45.981 INFO [main] org.atmosphere.cpr.AtmosphereFramework.info Atmosphere Framework 2.4.30.vaadin4 started.
+23-Jun-2022 11:43:45.981 INFO [main] org.atmosphere.cpr.AtmosphereFramework.addInterceptorToAllWrappers Installed AtmosphereInterceptor  Track Message Size Interceptor using | with priority BEFORE_DEFAULT 
+23-Jun-2022 11:43:46.044 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\j.hurtado.de.moxo\magnolia03rest\apache-tomcat\webapps\magnoliaAuthor] has finished in [94,501] ms
+23-Jun-2022 11:43:46.044 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\j.hurtado.de.moxo\magnolia03rest\apache-tomcat\webapps\magnoliaPublic]
+23-Jun-2022 11:45:21.262 INFO [main] org.atmosphere.cpr.AtmosphereFramework.addAtmosphereHandler Installed AtmosphereHandler com.vaadin.server.communication.PushAtmosphereHandler mapped to context-path: /*
+23-Jun-2022 11:45:21.262 INFO [main] org.atmosphere.cpr.AtmosphereFramework.addAtmosphereHandler Installed the following AtmosphereInterceptor mapped to AtmosphereHandler com.vaadin.server.communication.PushAtmosphereHandler
+23-Jun-2022 11:45:21.371 INFO [main] org.atmosphere.cpr.AtmosphereFramework.autoConfigureService Atmosphere is using org.atmosphere.util.VoidAnnotationProcessor for processing annotation
+23-Jun-2022 11:45:21.387 INFO [main] org.atmosphere.util.ForkJoinPool.<init> Using ForkJoinPool  java.util.concurrent.ForkJoinPool. Set the org.atmosphere.cpr.broadcaster.maxAsyncWriteThreads to -1 to fully use its power.
+23-Jun-2022 11:45:21.406 INFO [main] org.atmosphere.cpr.AtmosphereFramework.initWebSocket Installed WebSocketProtocol org.atmosphere.websocket.protocol.SimpleHttpProtocol 
+23-Jun-2022 11:45:21.450 INFO [main] org.atmosphere.cpr.AtmosphereFramework.configureAtmosphereInterceptor Installing Default AtmosphereInterceptors
+23-Jun-2022 11:45:21.450 INFO [main] org.atmosphere.cpr.AtmosphereFramework.newAInterceptor 	org.atmosphere.interceptor.CorsInterceptor : CORS Interceptor Support
+23-Jun-2022 11:45:21.450 INFO [main] org.atmosphere.cpr.AtmosphereFramework.newAInterceptor 	org.atmosphere.interceptor.CacheHeadersInterceptor : Default Response's Headers Interceptor
+23-Jun-2022 11:45:21.450 INFO [main] org.atmosphere.cpr.AtmosphereFramework.newAInterceptor 	org.atmosphere.interceptor.PaddingAtmosphereInterceptor : Browser Padding Interceptor Support
+23-Jun-2022 11:45:21.466 INFO [main] org.atmosphere.cpr.AtmosphereFramework.newAInterceptor 	org.atmosphere.interceptor.AndroidAtmosphereInterceptor : Android Interceptor Support
+23-Jun-2022 11:45:21.466 INFO [main] org.atmosphere.cpr.AtmosphereFramework.newAInterceptor 	org.atmosphere.interceptor.HeartbeatInterceptor : Heartbeat Interceptor Support
+23-Jun-2022 11:45:21.466 INFO [main] org.atmosphere.cpr.AtmosphereFramework.newAInterceptor 	org.atmosphere.interceptor.SSEAtmosphereInterceptor : SSE Interceptor Support
+23-Jun-2022 11:45:21.466 INFO [main] org.atmosphere.cpr.AtmosphereFramework.newAInterceptor 	org.atmosphere.interceptor.JSONPAtmosphereInterceptor : JSONP Interceptor Support
+23-Jun-2022 11:45:21.466 INFO [main] org.atmosphere.cpr.AtmosphereFramework.newAInterceptor 	org.atmosphere.interceptor.JavaScriptProtocol : Atmosphere JavaScript Protocol
+23-Jun-2022 11:45:21.466 INFO [main] org.atmosphere.cpr.AtmosphereFramework.newAInterceptor 	org.atmosphere.interceptor.WebSocketMessageSuspendInterceptor : org.atmosphere.interceptor.WebSocketMessageSuspendInterceptor
+23-Jun-2022 11:45:21.466 INFO [main] org.atmosphere.cpr.AtmosphereFramework.newAInterceptor 	org.atmosphere.interceptor.OnDisconnectInterceptor : Browser disconnection detection
+23-Jun-2022 11:45:21.466 INFO [main] org.atmosphere.cpr.AtmosphereFramework.newAInterceptor 	org.atmosphere.interceptor.IdleResourceInterceptor : org.atmosphere.interceptor.IdleResourceInterceptor
+23-Jun-2022 11:45:21.466 INFO [main] org.atmosphere.cpr.AtmosphereFramework.configureAtmosphereInterceptor Set org.atmosphere.cpr.AtmosphereInterceptor.disableDefaults to disable them.
+23-Jun-2022 11:45:21.466 INFO [main] org.atmosphere.cpr.AtmosphereFramework.addInterceptorToAllWrappers Installed AtmosphereInterceptor CORS Interceptor Support with priority FIRST_BEFORE_DEFAULT 
+23-Jun-2022 11:45:21.481 INFO [main] org.atmosphere.cpr.AtmosphereFramework.addInterceptorToAllWrappers Installed AtmosphereInterceptor Default Response's Headers Interceptor with priority AFTER_DEFAULT 
+23-Jun-2022 11:45:21.481 INFO [main] org.atmosphere.cpr.AtmosphereFramework.addInterceptorToAllWrappers Installed AtmosphereInterceptor Browser Padding Interceptor Support with priority AFTER_DEFAULT 
+23-Jun-2022 11:45:21.481 INFO [main] org.atmosphere.cpr.AtmosphereFramework.addInterceptorToAllWrappers Installed AtmosphereInterceptor Android Interceptor Support with priority AFTER_DEFAULT 
+23-Jun-2022 11:45:21.481 INFO [main] org.atmosphere.interceptor.HeartbeatInterceptor.configure HeartbeatInterceptor configured with padding value 'X', client frequency 60 seconds and server frequency 0 seconds
+23-Jun-2022 11:45:21.481 INFO [main] org.atmosphere.cpr.AtmosphereFramework.addInterceptorToAllWrappers Installed AtmosphereInterceptor Heartbeat Interceptor Support with priority AFTER_DEFAULT 
+23-Jun-2022 11:45:21.481 INFO [main] org.atmosphere.cpr.AtmosphereFramework.addInterceptorToAllWrappers Installed AtmosphereInterceptor SSE Interceptor Support with priority AFTER_DEFAULT 
+23-Jun-2022 11:45:21.481 INFO [main] org.atmosphere.cpr.AtmosphereFramework.addInterceptorToAllWrappers Installed AtmosphereInterceptor JSONP Interceptor Support with priority AFTER_DEFAULT 
+23-Jun-2022 11:45:21.481 INFO [main] org.atmosphere.cpr.AtmosphereFramework.addInterceptorToAllWrappers Installed AtmosphereInterceptor Atmosphere JavaScript Protocol with priority AFTER_DEFAULT 
+23-Jun-2022 11:45:21.481 INFO [main] org.atmosphere.cpr.AtmosphereFramework.addInterceptorToAllWrappers Installed AtmosphereInterceptor org.atmosphere.interceptor.WebSocketMessageSuspendInterceptor with priority AFTER_DEFAULT 
+23-Jun-2022 11:45:21.481 INFO [main] org.atmosphere.cpr.AtmosphereFramework.addInterceptorToAllWrappers Installed AtmosphereInterceptor Browser disconnection detection with priority AFTER_DEFAULT 
+23-Jun-2022 11:45:21.481 INFO [main] org.atmosphere.cpr.AtmosphereFramework.addInterceptorToAllWrappers Installed AtmosphereInterceptor org.atmosphere.interceptor.IdleResourceInterceptor with priority BEFORE_DEFAULT 
+23-Jun-2022 11:45:21.497 INFO [main] org.atmosphere.cpr.AtmosphereFramework.info Using EndpointMapper class org.atmosphere.util.DefaultEndpointMapper
+23-Jun-2022 11:45:21.497 INFO [main] org.atmosphere.cpr.AtmosphereFramework.info Using BroadcasterCache: org.atmosphere.cache.UUIDBroadcasterCache
+23-Jun-2022 11:45:21.497 INFO [main] org.atmosphere.cpr.AtmosphereFramework.info Default Broadcaster Class: org.atmosphere.cpr.DefaultBroadcaster
+23-Jun-2022 11:45:21.497 INFO [main] org.atmosphere.cpr.AtmosphereFramework.info Broadcaster Shared List Resources: false
+23-Jun-2022 11:45:21.497 INFO [main] org.atmosphere.cpr.AtmosphereFramework.info Broadcaster Polling Wait Time 100
+23-Jun-2022 11:45:21.497 INFO [main] org.atmosphere.cpr.AtmosphereFramework.info Shared ExecutorService supported: true
+23-Jun-2022 11:45:21.497 INFO [main] org.atmosphere.cpr.AtmosphereFramework.info Messaging ExecutorService Pool Size unavailable - Not instance of ThreadPoolExecutor
+23-Jun-2022 11:45:21.497 INFO [main] org.atmosphere.cpr.AtmosphereFramework.info Async I/O Thread Pool Size: 200
+23-Jun-2022 11:45:21.506 INFO [main] org.atmosphere.cpr.AtmosphereFramework.info Using BroadcasterFactory: org.atmosphere.cpr.DefaultBroadcasterFactory
+23-Jun-2022 11:45:21.506 INFO [main] org.atmosphere.cpr.AtmosphereFramework.info Using AtmosphereResurceFactory: org.atmosphere.cpr.DefaultAtmosphereResourceFactory
+23-Jun-2022 11:45:21.506 INFO [main] org.atmosphere.cpr.AtmosphereFramework.info Using WebSocketProcessor: org.atmosphere.websocket.DefaultWebSocketProcessor
+23-Jun-2022 11:45:21.513 INFO [main] org.atmosphere.cpr.AtmosphereFramework.info Invoke AtmosphereInterceptor on WebSocket message true
+23-Jun-2022 11:45:21.513 INFO [main] org.atmosphere.cpr.AtmosphereFramework.info HttpSession supported: true
+23-Jun-2022 11:45:21.513 INFO [main] org.atmosphere.cpr.AtmosphereFramework.info Atmosphere is using org.atmosphere.inject.InjectableObjectFactory for dependency injection and object creation
+23-Jun-2022 11:45:21.513 INFO [main] org.atmosphere.cpr.AtmosphereFramework.info Atmosphere is using async support: org.atmosphere.container.Servlet30CometSupport running under container: Apache Tomcat/9.0.64 using javax.servlet/3.0
+23-Jun-2022 11:45:21.513 INFO [main] org.atmosphere.cpr.AtmosphereFramework.info Atmosphere Framework 2.4.30.vaadin4 started.
+23-Jun-2022 11:45:21.528 INFO [main] org.atmosphere.cpr.AtmosphereFramework.addInterceptorToAllWrappers Installed AtmosphereInterceptor  Track Message Size Interceptor using | with priority BEFORE_DEFAULT 
+23-Jun-2022 11:45:22.346 INFO [main] org.atmosphere.cpr.AtmosphereFramework.addAtmosphereHandler Installed AtmosphereHandler com.vaadin.server.communication.PushAtmosphereHandler mapped to context-path: /*
+23-Jun-2022 11:45:22.346 INFO [main] org.atmosphere.cpr.AtmosphereFramework.addAtmosphereHandler Installed the following AtmosphereInterceptor mapped to AtmosphereHandler com.vaadin.server.communication.PushAtmosphereHandler
+23-Jun-2022 11:45:22.392 INFO [main] org.atmosphere.cpr.AtmosphereFramework.autoConfigureService Atmosphere is using org.atmosphere.util.VoidAnnotationProcessor for processing annotation
+23-Jun-2022 11:45:22.408 INFO [main] org.atmosphere.util.ForkJoinPool.<init> Using ForkJoinPool  java.util.concurrent.ForkJoinPool. Set the org.atmosphere.cpr.broadcaster.maxAsyncWriteThreads to -1 to fully use its power.
+23-Jun-2022 11:45:22.408 INFO [main] org.atmosphere.cpr.AtmosphereFramework.initWebSocket Installed WebSocketProtocol org.atmosphere.websocket.protocol.SimpleHttpProtocol 
+23-Jun-2022 11:45:22.470 INFO [main] org.atmosphere.cpr.AtmosphereFramework.configureAtmosphereInterceptor Installing Default AtmosphereInterceptors
+23-Jun-2022 11:45:22.470 INFO [main] org.atmosphere.cpr.AtmosphereFramework.newAInterceptor 	org.atmosphere.interceptor.CorsInterceptor : CORS Interceptor Support
+23-Jun-2022 11:45:22.470 INFO [main] org.atmosphere.cpr.AtmosphereFramework.newAInterceptor 	org.atmosphere.interceptor.CacheHeadersInterceptor : Default Response's Headers Interceptor
+23-Jun-2022 11:45:22.470 INFO [main] org.atmosphere.cpr.AtmosphereFramework.newAInterceptor 	org.atmosphere.interceptor.PaddingAtmosphereInterceptor : Browser Padding Interceptor Support
+23-Jun-2022 11:45:22.470 INFO [main] org.atmosphere.cpr.AtmosphereFramework.newAInterceptor 	org.atmosphere.interceptor.AndroidAtmosphereInterceptor : Android Interceptor Support
+23-Jun-2022 11:45:22.470 INFO [main] org.atmosphere.cpr.AtmosphereFramework.newAInterceptor 	org.atmosphere.interceptor.HeartbeatInterceptor : Heartbeat Interceptor Support
+23-Jun-2022 11:45:22.470 INFO [main] org.atmosphere.cpr.AtmosphereFramework.newAInterceptor 	org.atmosphere.interceptor.SSEAtmosphereInterceptor : SSE Interceptor Support
+23-Jun-2022 11:45:22.470 INFO [main] org.atmosphere.cpr.AtmosphereFramework.newAInterceptor 	org.atmosphere.interceptor.JSONPAtmosphereInterceptor : JSONP Interceptor Support
+23-Jun-2022 11:45:22.470 INFO [main] org.atmosphere.cpr.AtmosphereFramework.newAInterceptor 	org.atmosphere.interceptor.JavaScriptProtocol : Atmosphere JavaScript Protocol
+23-Jun-2022 11:45:22.470 INFO [main] org.atmosphere.cpr.AtmosphereFramework.newAInterceptor 	org.atmosphere.interceptor.WebSocketMessageSuspendInterceptor : org.atmosphere.interceptor.WebSocketMessageSuspendInterceptor
+23-Jun-2022 11:45:22.470 INFO [main] org.atmosphere.cpr.AtmosphereFramework.newAInterceptor 	org.atmosphere.interceptor.OnDisconnectInterceptor : Browser disconnection detection
+23-Jun-2022 11:45:22.470 INFO [main] org.atmosphere.cpr.AtmosphereFramework.newAInterceptor 	org.atmosphere.interceptor.IdleResourceInterceptor : org.atmosphere.interceptor.IdleResourceInterceptor
+23-Jun-2022 11:45:22.470 INFO [main] org.atmosphere.cpr.AtmosphereFramework.configureAtmosphereInterceptor Set org.atmosphere.cpr.AtmosphereInterceptor.disableDefaults to disable them.
+23-Jun-2022 11:45:22.486 INFO [main] org.atmosphere.cpr.AtmosphereFramework.addInterceptorToAllWrappers Installed AtmosphereInterceptor CORS Interceptor Support with priority FIRST_BEFORE_DEFAULT 
+23-Jun-2022 11:45:22.486 INFO [main] org.atmosphere.cpr.AtmosphereFramework.addInterceptorToAllWrappers Installed AtmosphereInterceptor Default Response's Headers Interceptor with priority AFTER_DEFAULT 
+23-Jun-2022 11:45:22.486 INFO [main] org.atmosphere.cpr.AtmosphereFramework.addInterceptorToAllWrappers Installed AtmosphereInterceptor Browser Padding Interceptor Support with priority AFTER_DEFAULT 
+23-Jun-2022 11:45:22.486 INFO [main] org.atmosphere.cpr.AtmosphereFramework.addInterceptorToAllWrappers Installed AtmosphereInterceptor Android Interceptor Support with priority AFTER_DEFAULT 
+23-Jun-2022 11:45:22.486 INFO [main] org.atmosphere.interceptor.HeartbeatInterceptor.configure HeartbeatInterceptor configured with padding value 'X', client frequency 60 seconds and server frequency 0 seconds
+23-Jun-2022 11:45:22.486 INFO [main] org.atmosphere.cpr.AtmosphereFramework.addInterceptorToAllWrappers Installed AtmosphereInterceptor Heartbeat Interceptor Support with priority AFTER_DEFAULT 
+23-Jun-2022 11:45:22.486 INFO [main] org.atmosphere.cpr.AtmosphereFramework.addInterceptorToAllWrappers Installed AtmosphereInterceptor SSE Interceptor Support with priority AFTER_DEFAULT 
+23-Jun-2022 11:45:22.486 INFO [main] org.atmosphere.cpr.AtmosphereFramework.addInterceptorToAllWrappers Installed AtmosphereInterceptor JSONP Interceptor Support with priority AFTER_DEFAULT 
+23-Jun-2022 11:45:22.486 INFO [main] org.atmosphere.cpr.AtmosphereFramework.addInterceptorToAllWrappers Installed AtmosphereInterceptor Atmosphere JavaScript Protocol with priority AFTER_DEFAULT 
+23-Jun-2022 11:45:22.486 INFO [main] org.atmosphere.cpr.AtmosphereFramework.addInterceptorToAllWrappers Installed AtmosphereInterceptor org.atmosphere.interceptor.WebSocketMessageSuspendInterceptor with priority AFTER_DEFAULT 
+23-Jun-2022 11:45:22.486 INFO [main] org.atmosphere.cpr.AtmosphereFramework.addInterceptorToAllWrappers Installed AtmosphereInterceptor Browser disconnection detection with priority AFTER_DEFAULT 
+23-Jun-2022 11:45:22.502 INFO [main] org.atmosphere.cpr.AtmosphereFramework.addInterceptorToAllWrappers Installed AtmosphereInterceptor org.atmosphere.interceptor.IdleResourceInterceptor with priority BEFORE_DEFAULT 
+23-Jun-2022 11:45:22.502 INFO [main] org.atmosphere.cpr.AtmosphereFramework.info Using EndpointMapper class org.atmosphere.util.DefaultEndpointMapper
+23-Jun-2022 11:45:22.508 INFO [main] org.atmosphere.cpr.AtmosphereFramework.info Using BroadcasterCache: org.atmosphere.cache.UUIDBroadcasterCache
+23-Jun-2022 11:45:22.508 INFO [main] org.atmosphere.cpr.AtmosphereFramework.info Default Broadcaster Class: org.atmosphere.cpr.DefaultBroadcaster
+23-Jun-2022 11:45:22.508 INFO [main] org.atmosphere.cpr.AtmosphereFramework.info Broadcaster Shared List Resources: false
+23-Jun-2022 11:45:22.508 INFO [main] org.atmosphere.cpr.AtmosphereFramework.info Broadcaster Polling Wait Time 100
+23-Jun-2022 11:45:22.508 INFO [main] org.atmosphere.cpr.AtmosphereFramework.info Shared ExecutorService supported: true
+23-Jun-2022 11:45:22.508 INFO [main] org.atmosphere.cpr.AtmosphereFramework.info Messaging ExecutorService Pool Size unavailable - Not instance of ThreadPoolExecutor
+23-Jun-2022 11:45:22.508 INFO [main] org.atmosphere.cpr.AtmosphereFramework.info Async I/O Thread Pool Size: 200
+23-Jun-2022 11:45:22.508 INFO [main] org.atmosphere.cpr.AtmosphereFramework.info Using BroadcasterFactory: org.atmosphere.cpr.DefaultBroadcasterFactory
+23-Jun-2022 11:45:22.508 INFO [main] org.atmosphere.cpr.AtmosphereFramework.info Using AtmosphereResurceFactory: org.atmosphere.cpr.DefaultAtmosphereResourceFactory
+23-Jun-2022 11:45:22.508 INFO [main] org.atmosphere.cpr.AtmosphereFramework.info Using WebSocketProcessor: org.atmosphere.websocket.DefaultWebSocketProcessor
+23-Jun-2022 11:45:22.508 INFO [main] org.atmosphere.cpr.AtmosphereFramework.info Invoke AtmosphereInterceptor on WebSocket message true
+23-Jun-2022 11:45:22.518 INFO [main] org.atmosphere.cpr.AtmosphereFramework.info HttpSession supported: true
+23-Jun-2022 11:45:22.518 INFO [main] org.atmosphere.cpr.AtmosphereFramework.info Atmosphere is using org.atmosphere.inject.InjectableObjectFactory for dependency injection and object creation
+23-Jun-2022 11:45:22.518 INFO [main] org.atmosphere.cpr.AtmosphereFramework.info Atmosphere is using async support: org.atmosphere.container.Servlet30CometSupport running under container: Apache Tomcat/9.0.64 using javax.servlet/3.0
+23-Jun-2022 11:45:22.518 INFO [main] org.atmosphere.cpr.AtmosphereFramework.info Atmosphere Framework 2.4.30.vaadin4 started.
+23-Jun-2022 11:45:22.518 INFO [main] org.atmosphere.cpr.AtmosphereFramework.addInterceptorToAllWrappers Installed AtmosphereInterceptor  Track Message Size Interceptor using | with priority BEFORE_DEFAULT 
+23-Jun-2022 11:45:22.518 INFO [main] org.atmosphere.cpr.AtmosphereFramework.addAtmosphereHandler Installed AtmosphereHandler com.vaadin.server.communication.PushAtmosphereHandler mapped to context-path: /*
+23-Jun-2022 11:45:22.518 INFO [main] org.atmosphere.cpr.AtmosphereFramework.addAtmosphereHandler Installed the following AtmosphereInterceptor mapped to AtmosphereHandler com.vaadin.server.communication.PushAtmosphereHandler
+23-Jun-2022 11:45:22.533 INFO [main] org.atmosphere.cpr.AtmosphereFramework.autoConfigureService Atmosphere is using org.atmosphere.util.VoidAnnotationProcessor for processing annotation
+23-Jun-2022 11:45:22.549 INFO [main] org.atmosphere.util.ForkJoinPool.<init> Using ForkJoinPool  java.util.concurrent.ForkJoinPool. Set the org.atmosphere.cpr.broadcaster.maxAsyncWriteThreads to -1 to fully use its power.
+23-Jun-2022 11:45:22.549 INFO [main] org.atmosphere.cpr.AtmosphereFramework.initWebSocket Installed WebSocketProtocol org.atmosphere.websocket.protocol.SimpleHttpProtocol 
+23-Jun-2022 11:45:22.596 INFO [main] org.atmosphere.cpr.AtmosphereFramework.configureAtmosphereInterceptor Installing Default AtmosphereInterceptors
+23-Jun-2022 11:45:22.596 INFO [main] org.atmosphere.cpr.AtmosphereFramework.newAInterceptor 	org.atmosphere.interceptor.CorsInterceptor : CORS Interceptor Support
+23-Jun-2022 11:45:22.596 INFO [main] org.atmosphere.cpr.AtmosphereFramework.newAInterceptor 	org.atmosphere.interceptor.CacheHeadersInterceptor : Default Response's Headers Interceptor
+23-Jun-2022 11:45:22.596 INFO [main] org.atmosphere.cpr.AtmosphereFramework.newAInterceptor 	org.atmosphere.interceptor.PaddingAtmosphereInterceptor : Browser Padding Interceptor Support
+23-Jun-2022 11:45:22.596 INFO [main] org.atmosphere.cpr.AtmosphereFramework.newAInterceptor 	org.atmosphere.interceptor.AndroidAtmosphereInterceptor : Android Interceptor Support
+23-Jun-2022 11:45:22.596 INFO [main] org.atmosphere.cpr.AtmosphereFramework.newAInterceptor 	org.atmosphere.interceptor.HeartbeatInterceptor : Heartbeat Interceptor Support
+23-Jun-2022 11:45:22.596 INFO [main] org.atmosphere.cpr.AtmosphereFramework.newAInterceptor 	org.atmosphere.interceptor.SSEAtmosphereInterceptor : SSE Interceptor Support
+23-Jun-2022 11:45:22.596 INFO [main] org.atmosphere.cpr.AtmosphereFramework.newAInterceptor 	org.atmosphere.interceptor.JSONPAtmosphereInterceptor : JSONP Interceptor Support
+23-Jun-2022 11:45:22.596 INFO [main] org.atmosphere.cpr.AtmosphereFramework.newAInterceptor 	org.atmosphere.interceptor.JavaScriptProtocol : Atmosphere JavaScript Protocol
+23-Jun-2022 11:45:22.596 INFO [main] org.atmosphere.cpr.AtmosphereFramework.newAInterceptor 	org.atmosphere.interceptor.WebSocketMessageSuspendInterceptor : org.atmosphere.interceptor.WebSocketMessageSuspendInterceptor
+23-Jun-2022 11:45:22.596 INFO [main] org.atmosphere.cpr.AtmosphereFramework.newAInterceptor 	org.atmosphere.interceptor.OnDisconnectInterceptor : Browser disconnection detection
+23-Jun-2022 11:45:22.608 INFO [main] org.atmosphere.cpr.AtmosphereFramework.newAInterceptor 	org.atmosphere.interceptor.IdleResourceInterceptor : org.atmosphere.interceptor.IdleResourceInterceptor
+23-Jun-2022 11:45:22.608 INFO [main] org.atmosphere.cpr.AtmosphereFramework.configureAtmosphereInterceptor Set org.atmosphere.cpr.AtmosphereInterceptor.disableDefaults to disable them.
+23-Jun-2022 11:45:22.608 INFO [main] org.atmosphere.cpr.AtmosphereFramework.addInterceptorToAllWrappers Installed AtmosphereInterceptor CORS Interceptor Support with priority FIRST_BEFORE_DEFAULT 
+23-Jun-2022 11:45:22.608 INFO [main] org.atmosphere.cpr.AtmosphereFramework.addInterceptorToAllWrappers Installed AtmosphereInterceptor Default Response's Headers Interceptor with priority AFTER_DEFAULT 
+23-Jun-2022 11:45:22.608 INFO [main] org.atmosphere.cpr.AtmosphereFramework.addInterceptorToAllWrappers Installed AtmosphereInterceptor Browser Padding Interceptor Support with priority AFTER_DEFAULT 
+23-Jun-2022 11:45:22.612 INFO [main] org.atmosphere.cpr.AtmosphereFramework.addInterceptorToAllWrappers Installed AtmosphereInterceptor Android Interceptor Support with priority AFTER_DEFAULT 
+23-Jun-2022 11:45:22.612 INFO [main] org.atmosphere.interceptor.HeartbeatInterceptor.configure HeartbeatInterceptor configured with padding value 'X', client frequency 60 seconds and server frequency 0 seconds
+23-Jun-2022 11:45:22.612 INFO [main] org.atmosphere.cpr.AtmosphereFramework.addInterceptorToAllWrappers Installed AtmosphereInterceptor Heartbeat Interceptor Support with priority AFTER_DEFAULT 
+23-Jun-2022 11:45:22.612 INFO [main] org.atmosphere.cpr.AtmosphereFramework.addInterceptorToAllWrappers Installed AtmosphereInterceptor SSE Interceptor Support with priority AFTER_DEFAULT 
+23-Jun-2022 11:45:22.612 INFO [main] org.atmosphere.cpr.AtmosphereFramework.addInterceptorToAllWrappers Installed AtmosphereInterceptor JSONP Interceptor Support with priority AFTER_DEFAULT 
+23-Jun-2022 11:45:22.612 INFO [main] org.atmosphere.cpr.AtmosphereFramework.addInterceptorToAllWrappers Installed AtmosphereInterceptor Atmosphere JavaScript Protocol with priority AFTER_DEFAULT 
+23-Jun-2022 11:45:22.612 INFO [main] org.atmosphere.cpr.AtmosphereFramework.addInterceptorToAllWrappers Installed AtmosphereInterceptor org.atmosphere.interceptor.WebSocketMessageSuspendInterceptor with priority AFTER_DEFAULT 
+23-Jun-2022 11:45:22.612 INFO [main] org.atmosphere.cpr.AtmosphereFramework.addInterceptorToAllWrappers Installed AtmosphereInterceptor Browser disconnection detection with priority AFTER_DEFAULT 
+23-Jun-2022 11:45:22.612 INFO [main] org.atmosphere.cpr.AtmosphereFramework.addInterceptorToAllWrappers Installed AtmosphereInterceptor org.atmosphere.interceptor.IdleResourceInterceptor with priority BEFORE_DEFAULT 
+23-Jun-2022 11:45:22.612 INFO [main] org.atmosphere.cpr.AtmosphereFramework.info Using EndpointMapper class org.atmosphere.util.DefaultEndpointMapper
+23-Jun-2022 11:45:22.612 INFO [main] org.atmosphere.cpr.AtmosphereFramework.info Using BroadcasterCache: org.atmosphere.cache.UUIDBroadcasterCache
+23-Jun-2022 11:45:22.612 INFO [main] org.atmosphere.cpr.AtmosphereFramework.info Default Broadcaster Class: org.atmosphere.cpr.DefaultBroadcaster
+23-Jun-2022 11:45:22.628 INFO [main] org.atmosphere.cpr.AtmosphereFramework.info Broadcaster Shared List Resources: false
+23-Jun-2022 11:45:22.628 INFO [main] org.atmosphere.cpr.AtmosphereFramework.info Broadcaster Polling Wait Time 100
+23-Jun-2022 11:45:22.628 INFO [main] org.atmosphere.cpr.AtmosphereFramework.info Shared ExecutorService supported: true
+23-Jun-2022 11:45:22.628 INFO [main] org.atmosphere.cpr.AtmosphereFramework.info Messaging ExecutorService Pool Size unavailable - Not instance of ThreadPoolExecutor
+23-Jun-2022 11:45:22.628 INFO [main] org.atmosphere.cpr.AtmosphereFramework.info Async I/O Thread Pool Size: 200
+23-Jun-2022 11:45:22.628 INFO [main] org.atmosphere.cpr.AtmosphereFramework.info Using BroadcasterFactory: org.atmosphere.cpr.DefaultBroadcasterFactory
+23-Jun-2022 11:45:22.628 INFO [main] org.atmosphere.cpr.AtmosphereFramework.info Using AtmosphereResurceFactory: org.atmosphere.cpr.DefaultAtmosphereResourceFactory
+23-Jun-2022 11:45:22.628 INFO [main] org.atmosphere.cpr.AtmosphereFramework.info Using WebSocketProcessor: org.atmosphere.websocket.DefaultWebSocketProcessor
+23-Jun-2022 11:45:22.628 INFO [main] org.atmosphere.cpr.AtmosphereFramework.info Invoke AtmosphereInterceptor on WebSocket message true
+23-Jun-2022 11:45:22.628 INFO [main] org.atmosphere.cpr.AtmosphereFramework.info HttpSession supported: true
+23-Jun-2022 11:45:22.628 INFO [main] org.atmosphere.cpr.AtmosphereFramework.info Atmosphere is using org.atmosphere.inject.InjectableObjectFactory for dependency injection and object creation
+23-Jun-2022 11:45:22.643 INFO [main] org.atmosphere.cpr.AtmosphereFramework.info Atmosphere is using async support: org.atmosphere.container.Servlet30CometSupport running under container: Apache Tomcat/9.0.64 using javax.servlet/3.0
+23-Jun-2022 11:45:22.645 INFO [main] org.atmosphere.cpr.AtmosphereFramework.info Atmosphere Framework 2.4.30.vaadin4 started.
+23-Jun-2022 11:45:22.646 INFO [main] org.atmosphere.cpr.AtmosphereFramework.addInterceptorToAllWrappers Installed AtmosphereInterceptor  Track Message Size Interceptor using | with priority BEFORE_DEFAULT 
+23-Jun-2022 11:45:22.690 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\j.hurtado.de.moxo\magnolia03rest\apache-tomcat\webapps\magnoliaPublic] has finished in [96,646] ms
+23-Jun-2022 11:45:22.690 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\j.hurtado.de.moxo\magnolia03rest\apache-tomcat\webapps\ROOT]
+23-Jun-2022 11:45:22.737 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\j.hurtado.de.moxo\magnolia03rest\apache-tomcat\webapps\ROOT] has finished in [47] ms
+23-Jun-2022 11:45:22.753 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+23-Jun-2022 11:45:22.800 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [191344] milliseconds
+23-Jun-2022 11:54:47.637 WARNING [http-nio-8080-exec-1] com.vaadin.event.EventRouter.addListener Adding listeners with type Object is deprecated, event listener should extend SerializableEventListener
+23-Jun-2022 11:54:47.659 WARNING [http-nio-8080-exec-1] com.vaadin.event.EventRouter.addListener Adding listeners with type Object is deprecated, event listener should extend SerializableEventListener
+23-Jun-2022 11:54:47.672 WARNING [http-nio-8080-exec-1] com.vaadin.event.EventRouter.addListener Adding listeners with type Object is deprecated, event listener should extend SerializableEventListener
+23-Jun-2022 12:49:09.346 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+23-Jun-2022 12:49:09.361 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+23-Jun-2022 12:49:09.565 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+23-Jun-2022 12:49:11.674 INFO [main] org.atmosphere.util.ForkJoinPool.<init> Using ForkJoinPool  java.util.concurrent.ForkJoinPool. Set the org.atmosphere.cpr.broadcaster.maxAsyncWriteThreads to -1 to fully use its power.
+23-Jun-2022 12:49:11.674 WARNING [main] org.atmosphere.cpr.DefaultBroadcaster.addAtmosphereResource AtmosphereResource bdfc6446-0fcf-479e-adb6-71bf01b04eda is not suspended. If cached messages exists, this may cause unexpected situation. Suspend first
+23-Jun-2022 12:49:13.725 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [magnoliaAuthor] registered the JDBC driver [org.h2.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+23-Jun-2022 12:49:13.725 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [magnoliaAuthor] appears to have started a thread named [FileSystemWatchService] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@11.0.15/sun.nio.fs.WindowsNativeDispatcher.GetQueuedCompletionStatus0(Native Method)
+ java.base@11.0.15/sun.nio.fs.WindowsNativeDispatcher.GetQueuedCompletionStatus(WindowsNativeDispatcher.java:1036)
+ java.base@11.0.15/sun.nio.fs.WindowsWatchService$Poller.run(WindowsWatchService.java:587)
+ java.base@11.0.15/java.lang.Thread.run(Thread.java:834)
+23-Jun-2022 12:49:13.741 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [magnoliaAuthor] appears to have started a thread named [Thread-6] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@11.0.15/java.lang.Object.wait(Native Method)
+ java.base@11.0.15/java.lang.Object.wait(Object.java:328)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon.nextTask(Unknown Source)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon$RunLoop.run(Unknown Source)
+ java.base@11.0.15/java.lang.Thread.run(Thread.java:834)
+23-Jun-2022 12:49:13.741 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [magnoliaAuthor] appears to have started a thread named [Thread-8] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@11.0.15/java.lang.Object.wait(Native Method)
+ java.base@11.0.15/java.lang.Object.wait(Object.java:328)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon.nextTask(Unknown Source)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon$RunLoop.run(Unknown Source)
+ java.base@11.0.15/java.lang.Thread.run(Thread.java:834)
+23-Jun-2022 12:49:13.741 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [magnoliaAuthor] appears to have started a thread named [Thread-9] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@11.0.15/java.lang.Object.wait(Native Method)
+ java.base@11.0.15/java.lang.Object.wait(Object.java:328)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon.nextTask(Unknown Source)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon$RunLoop.run(Unknown Source)
+ java.base@11.0.15/java.lang.Thread.run(Thread.java:834)
+23-Jun-2022 12:49:13.741 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [magnoliaAuthor] appears to have started a thread named [Thread-10] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@11.0.15/java.lang.Object.wait(Native Method)
+ java.base@11.0.15/java.lang.Object.wait(Object.java:328)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon.nextTask(Unknown Source)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon$RunLoop.run(Unknown Source)
+ java.base@11.0.15/java.lang.Thread.run(Thread.java:834)
+23-Jun-2022 12:49:13.741 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [magnoliaAuthor] appears to have started a thread named [Thread-11] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@11.0.15/java.lang.Object.wait(Native Method)
+ java.base@11.0.15/java.lang.Object.wait(Object.java:328)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon.nextTask(Unknown Source)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon$RunLoop.run(Unknown Source)
+ java.base@11.0.15/java.lang.Thread.run(Thread.java:834)
+23-Jun-2022 12:49:13.741 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [magnoliaAuthor] appears to have started a thread named [Thread-12] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@11.0.15/java.lang.Object.wait(Native Method)
+ java.base@11.0.15/java.lang.Object.wait(Object.java:328)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon.nextTask(Unknown Source)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon$RunLoop.run(Unknown Source)
+ java.base@11.0.15/java.lang.Thread.run(Thread.java:834)
+23-Jun-2022 12:49:13.741 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [magnoliaAuthor] appears to have started a thread named [Thread-13] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@11.0.15/java.lang.Object.wait(Native Method)
+ java.base@11.0.15/java.lang.Object.wait(Object.java:328)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon.nextTask(Unknown Source)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon$RunLoop.run(Unknown Source)
+ java.base@11.0.15/java.lang.Thread.run(Thread.java:834)
+23-Jun-2022 12:49:13.741 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [magnoliaAuthor] appears to have started a thread named [Thread-14] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@11.0.15/java.lang.Object.wait(Native Method)
+ java.base@11.0.15/java.lang.Object.wait(Object.java:328)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon.nextTask(Unknown Source)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon$RunLoop.run(Unknown Source)
+ java.base@11.0.15/java.lang.Thread.run(Thread.java:834)
+23-Jun-2022 12:49:13.741 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [magnoliaAuthor] appears to have started a thread named [Thread-15] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@11.0.15/java.lang.Object.wait(Native Method)
+ java.base@11.0.15/java.lang.Object.wait(Object.java:328)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon.nextTask(Unknown Source)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon$RunLoop.run(Unknown Source)
+ java.base@11.0.15/java.lang.Thread.run(Thread.java:834)
+23-Jun-2022 12:49:13.741 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [magnoliaAuthor] appears to have started a thread named [Thread-16] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@11.0.15/java.lang.Object.wait(Native Method)
+ java.base@11.0.15/java.lang.Object.wait(Object.java:328)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon.nextTask(Unknown Source)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon$RunLoop.run(Unknown Source)
+ java.base@11.0.15/java.lang.Thread.run(Thread.java:834)
+23-Jun-2022 12:49:13.757 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [magnoliaAuthor] appears to have started a thread named [Thread-17] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@11.0.15/java.lang.Object.wait(Native Method)
+ java.base@11.0.15/java.lang.Object.wait(Object.java:328)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon.nextTask(Unknown Source)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon$RunLoop.run(Unknown Source)
+ java.base@11.0.15/java.lang.Thread.run(Thread.java:834)
+23-Jun-2022 12:49:13.757 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [magnoliaAuthor] appears to have started a thread named [Thread-18] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@11.0.15/java.lang.Object.wait(Native Method)
+ java.base@11.0.15/java.lang.Object.wait(Object.java:328)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon.nextTask(Unknown Source)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon$RunLoop.run(Unknown Source)
+ java.base@11.0.15/java.lang.Thread.run(Thread.java:834)
+23-Jun-2022 12:49:13.757 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [magnoliaAuthor] appears to have started a thread named [Thread-19] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@11.0.15/java.lang.Object.wait(Native Method)
+ java.base@11.0.15/java.lang.Object.wait(Object.java:328)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon.nextTask(Unknown Source)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon$RunLoop.run(Unknown Source)
+ java.base@11.0.15/java.lang.Thread.run(Thread.java:834)
+23-Jun-2022 12:49:13.757 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [magnoliaAuthor] appears to have started a thread named [Thread-20] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@11.0.15/java.lang.Object.wait(Native Method)
+ java.base@11.0.15/java.lang.Object.wait(Object.java:328)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon.nextTask(Unknown Source)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon$RunLoop.run(Unknown Source)
+ java.base@11.0.15/java.lang.Thread.run(Thread.java:834)
+23-Jun-2022 12:49:13.757 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [magnoliaAuthor] appears to have started a thread named [Thread-21] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@11.0.15/java.lang.Object.wait(Native Method)
+ java.base@11.0.15/java.lang.Object.wait(Object.java:328)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon.nextTask(Unknown Source)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon$RunLoop.run(Unknown Source)
+ java.base@11.0.15/java.lang.Thread.run(Thread.java:834)
+23-Jun-2022 12:49:13.757 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [magnoliaAuthor] appears to have started a thread named [Thread-22] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@11.0.15/java.lang.Object.wait(Native Method)
+ java.base@11.0.15/java.lang.Object.wait(Object.java:328)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon.nextTask(Unknown Source)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon$RunLoop.run(Unknown Source)
+ java.base@11.0.15/java.lang.Thread.run(Thread.java:834)
+23-Jun-2022 12:49:13.757 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [magnoliaAuthor] appears to have started a thread named [Thread-23] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@11.0.15/java.lang.Object.wait(Native Method)
+ java.base@11.0.15/java.lang.Object.wait(Object.java:328)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon.nextTask(Unknown Source)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon$RunLoop.run(Unknown Source)
+ java.base@11.0.15/java.lang.Thread.run(Thread.java:834)
+23-Jun-2022 12:49:13.757 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [magnoliaAuthor] appears to have started a thread named [Thread-24] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@11.0.15/java.lang.Object.wait(Native Method)
+ java.base@11.0.15/java.lang.Object.wait(Object.java:328)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon.nextTask(Unknown Source)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon$RunLoop.run(Unknown Source)
+ java.base@11.0.15/java.lang.Thread.run(Thread.java:834)
+23-Jun-2022 12:49:13.757 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [magnoliaAuthor] appears to have started a thread named [Thread-25] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@11.0.15/java.lang.Object.wait(Native Method)
+ java.base@11.0.15/java.lang.Object.wait(Object.java:328)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon.nextTask(Unknown Source)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon$RunLoop.run(Unknown Source)
+ java.base@11.0.15/java.lang.Thread.run(Thread.java:834)
+23-Jun-2022 12:49:13.757 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [magnoliaAuthor] appears to have started a thread named [Thread-26] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@11.0.15/java.lang.Object.wait(Native Method)
+ java.base@11.0.15/java.lang.Object.wait(Object.java:328)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon.nextTask(Unknown Source)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon$RunLoop.run(Unknown Source)
+ java.base@11.0.15/java.lang.Thread.run(Thread.java:834)
+23-Jun-2022 12:49:13.757 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [magnoliaAuthor] appears to have started a thread named [Thread-27] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@11.0.15/java.lang.Object.wait(Native Method)
+ java.base@11.0.15/java.lang.Object.wait(Object.java:328)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon.nextTask(Unknown Source)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon$RunLoop.run(Unknown Source)
+ java.base@11.0.15/java.lang.Thread.run(Thread.java:834)
+23-Jun-2022 12:49:13.757 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [magnoliaAuthor] appears to have started a thread named [Thread-28] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@11.0.15/java.lang.Object.wait(Native Method)
+ java.base@11.0.15/java.lang.Object.wait(Object.java:328)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon.nextTask(Unknown Source)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon$RunLoop.run(Unknown Source)
+ java.base@11.0.15/java.lang.Thread.run(Thread.java:834)
+23-Jun-2022 12:49:13.772 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [magnoliaAuthor] appears to have started a thread named [Thread-29] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@11.0.15/java.lang.Object.wait(Native Method)
+ java.base@11.0.15/java.lang.Object.wait(Object.java:328)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon.nextTask(Unknown Source)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon$RunLoop.run(Unknown Source)
+ java.base@11.0.15/java.lang.Thread.run(Thread.java:834)
+23-Jun-2022 12:49:13.772 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [magnoliaAuthor] appears to have started a thread named [Thread-30] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@11.0.15/java.lang.Object.wait(Native Method)
+ java.base@11.0.15/java.lang.Object.wait(Object.java:328)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon.nextTask(Unknown Source)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon$RunLoop.run(Unknown Source)
+ java.base@11.0.15/java.lang.Thread.run(Thread.java:834)
+23-Jun-2022 12:49:13.772 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [magnoliaAuthor] appears to have started a thread named [Thread-31] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@11.0.15/java.lang.Object.wait(Native Method)
+ java.base@11.0.15/java.lang.Object.wait(Object.java:328)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon.nextTask(Unknown Source)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon$RunLoop.run(Unknown Source)
+ java.base@11.0.15/java.lang.Thread.run(Thread.java:834)
+23-Jun-2022 12:49:13.772 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [magnoliaAuthor] appears to have started a thread named [Thread-32] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@11.0.15/java.lang.Object.wait(Native Method)
+ java.base@11.0.15/java.lang.Object.wait(Object.java:328)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon.nextTask(Unknown Source)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon$RunLoop.run(Unknown Source)
+ java.base@11.0.15/java.lang.Thread.run(Thread.java:834)
+23-Jun-2022 12:49:13.772 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [magnoliaAuthor] appears to have started a thread named [Transient File Reaper] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@11.0.15/java.lang.Object.wait(Native Method)
+ java.base@11.0.15/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:155)
+ java.base@11.0.15/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:176)
+ org.apache.jackrabbit.util.TransientFileFactory$ReaperThread.run(TransientFileFactory.java:192)
+23-Jun-2022 12:49:13.772 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [magnoliaAuthor] appears to have started a thread named [Thread-48] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@11.0.15/java.lang.Object.wait(Native Method)
+ java.base@11.0.15/java.lang.Object.wait(Object.java:328)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon.nextTask(Unknown Source)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon$RunLoop.run(Unknown Source)
+ java.base@11.0.15/java.lang.Thread.run(Thread.java:834)
+23-Jun-2022 12:49:13.772 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [magnoliaAuthor] appears to have started a thread named [pool-11-thread-1] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@11.0.15/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@11.0.15/java.util.concurrent.locks.LockSupport.park(LockSupport.java:194)
+ java.base@11.0.15/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2081)
+ java.base@11.0.15/java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:433)
+ java.base@11.0.15/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1054)
+ java.base@11.0.15/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1114)
+ java.base@11.0.15/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+ java.base@11.0.15/java.lang.Thread.run(Thread.java:834)
+23-Jun-2022 12:49:13.788 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [magnoliaAuthor] appears to have started a thread named [pool-12-thread-1] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@11.0.15/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@11.0.15/java.util.concurrent.locks.LockSupport.park(LockSupport.java:194)
+ java.base@11.0.15/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2081)
+ java.base@11.0.15/java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:433)
+ java.base@11.0.15/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1054)
+ java.base@11.0.15/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1114)
+ java.base@11.0.15/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+ java.base@11.0.15/java.lang.Thread.run(Thread.java:834)
+23-Jun-2022 12:49:13.788 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [magnoliaAuthor] appears to have started a thread named [Atmosphere-Scheduler-0] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@11.0.15/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@11.0.15/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:234)
+ java.base@11.0.15/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2123)
+ java.base@11.0.15/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.poll(ScheduledThreadPoolExecutor.java:1223)
+ java.base@11.0.15/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.poll(ScheduledThreadPoolExecutor.java:899)
+ java.base@11.0.15/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1053)
+ java.base@11.0.15/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1114)
+ java.base@11.0.15/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+ java.base@11.0.15/java.lang.Thread.run(Thread.java:834)
+23-Jun-2022 12:49:13.788 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [magnoliaAuthor] appears to have started a thread named [Atmosphere-Shared-0] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@11.0.15/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@11.0.15/java.util.concurrent.locks.LockSupport.park(LockSupport.java:194)
+ java.base@11.0.15/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1628)
+ java.base@11.0.15/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:183)
+23-Jun-2022 12:49:13.788 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [magnoliaAuthor] appears to have started a thread named [Atmosphere-Scheduler-1] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@11.0.15/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@11.0.15/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:234)
+ java.base@11.0.15/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2123)
+ java.base@11.0.15/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.poll(ScheduledThreadPoolExecutor.java:1218)
+ java.base@11.0.15/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.poll(ScheduledThreadPoolExecutor.java:899)
+ java.base@11.0.15/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1053)
+ java.base@11.0.15/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1114)
+ java.base@11.0.15/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+ java.base@11.0.15/java.lang.Thread.run(Thread.java:834)
+23-Jun-2022 12:49:13.788 SEVERE [main] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [magnoliaAuthor] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@7811f91d]) and a value of type [info.magnolia.context.SystemRepositoryStrategy] (value [SystemRepositoryStrategy[No creation stack trace available. Enable DEBUG logging for class info.magnolia.context.SystemRepositoryStrategy to enable it.]]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+23-Jun-2022 12:49:13.788 SEVERE [main] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [magnoliaAuthor] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@7811f91d]) and a value of type [info.magnolia.context.SystemRepositoryStrategy] (value [SystemRepositoryStrategy[No creation stack trace available. Enable DEBUG logging for class info.magnolia.context.SystemRepositoryStrategy to enable it.]]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+23-Jun-2022 12:49:13.788 SEVERE [main] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [magnoliaAuthor] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@7811f91d]) and a value of type [info.magnolia.context.SystemRepositoryStrategy] (value [SystemRepositoryStrategy[No creation stack trace available. Enable DEBUG logging for class info.magnolia.context.SystemRepositoryStrategy to enable it.]]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+23-Jun-2022 12:49:13.804 SEVERE [main] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [magnoliaAuthor] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@7811f91d]) and a value of type [info.magnolia.context.SystemRepositoryStrategy] (value [SystemRepositoryStrategy[No creation stack trace available. Enable DEBUG logging for class info.magnolia.context.SystemRepositoryStrategy to enable it.]]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+23-Jun-2022 12:49:15.747 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [magnoliaPublic] registered the JDBC driver [org.h2.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+23-Jun-2022 12:49:15.747 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [magnoliaPublic] appears to have started a thread named [FileSystemWatchService] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@11.0.15/sun.nio.fs.WindowsNativeDispatcher.GetQueuedCompletionStatus0(Native Method)
+ java.base@11.0.15/sun.nio.fs.WindowsNativeDispatcher.GetQueuedCompletionStatus(WindowsNativeDispatcher.java:1036)
+ java.base@11.0.15/sun.nio.fs.WindowsWatchService$Poller.run(WindowsWatchService.java:587)
+ java.base@11.0.15/java.lang.Thread.run(Thread.java:834)
+23-Jun-2022 12:49:15.747 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [magnoliaPublic] appears to have started a thread named [Thread-64] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@11.0.15/java.lang.Object.wait(Native Method)
+ java.base@11.0.15/java.lang.Object.wait(Object.java:328)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon.nextTask(Unknown Source)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon$RunLoop.run(Unknown Source)
+ java.base@11.0.15/java.lang.Thread.run(Thread.java:834)
+23-Jun-2022 12:49:15.747 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [magnoliaPublic] appears to have started a thread named [Thread-66] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@11.0.15/java.lang.Object.wait(Native Method)
+ java.base@11.0.15/java.lang.Object.wait(Object.java:328)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon.nextTask(Unknown Source)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon$RunLoop.run(Unknown Source)
+ java.base@11.0.15/java.lang.Thread.run(Thread.java:834)
+23-Jun-2022 12:49:15.747 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [magnoliaPublic] appears to have started a thread named [Thread-67] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@11.0.15/java.lang.Object.wait(Native Method)
+ java.base@11.0.15/java.lang.Object.wait(Object.java:328)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon.nextTask(Unknown Source)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon$RunLoop.run(Unknown Source)
+ java.base@11.0.15/java.lang.Thread.run(Thread.java:834)
+23-Jun-2022 12:49:15.747 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [magnoliaPublic] appears to have started a thread named [Thread-68] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@11.0.15/java.lang.Object.wait(Native Method)
+ java.base@11.0.15/java.lang.Object.wait(Object.java:328)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon.nextTask(Unknown Source)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon$RunLoop.run(Unknown Source)
+ java.base@11.0.15/java.lang.Thread.run(Thread.java:834)
+23-Jun-2022 12:49:15.747 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [magnoliaPublic] appears to have started a thread named [Thread-69] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@11.0.15/java.lang.Object.wait(Native Method)
+ java.base@11.0.15/java.lang.Object.wait(Object.java:328)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon.nextTask(Unknown Source)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon$RunLoop.run(Unknown Source)
+ java.base@11.0.15/java.lang.Thread.run(Thread.java:834)
+23-Jun-2022 12:49:15.747 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [magnoliaPublic] appears to have started a thread named [Thread-70] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@11.0.15/java.lang.Object.wait(Native Method)
+ java.base@11.0.15/java.lang.Object.wait(Object.java:328)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon.nextTask(Unknown Source)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon$RunLoop.run(Unknown Source)
+ java.base@11.0.15/java.lang.Thread.run(Thread.java:834)
+23-Jun-2022 12:49:15.747 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [magnoliaPublic] appears to have started a thread named [Thread-71] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@11.0.15/java.lang.Object.wait(Native Method)
+ java.base@11.0.15/java.lang.Object.wait(Object.java:328)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon.nextTask(Unknown Source)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon$RunLoop.run(Unknown Source)
+ java.base@11.0.15/java.lang.Thread.run(Thread.java:834)
+23-Jun-2022 12:49:15.747 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [magnoliaPublic] appears to have started a thread named [Thread-72] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@11.0.15/java.lang.Object.wait(Native Method)
+ java.base@11.0.15/java.lang.Object.wait(Object.java:328)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon.nextTask(Unknown Source)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon$RunLoop.run(Unknown Source)
+ java.base@11.0.15/java.lang.Thread.run(Thread.java:834)
+23-Jun-2022 12:49:15.763 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [magnoliaPublic] appears to have started a thread named [Thread-73] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@11.0.15/java.lang.Object.wait(Native Method)
+ java.base@11.0.15/java.lang.Object.wait(Object.java:328)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon.nextTask(Unknown Source)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon$RunLoop.run(Unknown Source)
+ java.base@11.0.15/java.lang.Thread.run(Thread.java:834)
+23-Jun-2022 12:49:15.763 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [magnoliaPublic] appears to have started a thread named [Thread-74] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@11.0.15/java.lang.Object.wait(Native Method)
+ java.base@11.0.15/java.lang.Object.wait(Object.java:328)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon.nextTask(Unknown Source)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon$RunLoop.run(Unknown Source)
+ java.base@11.0.15/java.lang.Thread.run(Thread.java:834)
+23-Jun-2022 12:49:15.763 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [magnoliaPublic] appears to have started a thread named [Thread-75] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@11.0.15/java.lang.Object.wait(Native Method)
+ java.base@11.0.15/java.lang.Object.wait(Object.java:328)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon.nextTask(Unknown Source)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon$RunLoop.run(Unknown Source)
+ java.base@11.0.15/java.lang.Thread.run(Thread.java:834)
+23-Jun-2022 12:49:15.763 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [magnoliaPublic] appears to have started a thread named [Thread-76] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@11.0.15/java.lang.Object.wait(Native Method)
+ java.base@11.0.15/java.lang.Object.wait(Object.java:328)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon.nextTask(Unknown Source)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon$RunLoop.run(Unknown Source)
+ java.base@11.0.15/java.lang.Thread.run(Thread.java:834)
+23-Jun-2022 12:49:15.763 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [magnoliaPublic] appears to have started a thread named [Thread-77] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@11.0.15/java.lang.Object.wait(Native Method)
+ java.base@11.0.15/java.lang.Object.wait(Object.java:328)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon.nextTask(Unknown Source)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon$RunLoop.run(Unknown Source)
+ java.base@11.0.15/java.lang.Thread.run(Thread.java:834)
+23-Jun-2022 12:49:15.763 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [magnoliaPublic] appears to have started a thread named [Thread-78] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@11.0.15/java.lang.Object.wait(Native Method)
+ java.base@11.0.15/java.lang.Object.wait(Object.java:328)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon.nextTask(Unknown Source)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon$RunLoop.run(Unknown Source)
+ java.base@11.0.15/java.lang.Thread.run(Thread.java:834)
+23-Jun-2022 12:49:15.763 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [magnoliaPublic] appears to have started a thread named [Thread-79] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@11.0.15/java.lang.Object.wait(Native Method)
+ java.base@11.0.15/java.lang.Object.wait(Object.java:328)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon.nextTask(Unknown Source)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon$RunLoop.run(Unknown Source)
+ java.base@11.0.15/java.lang.Thread.run(Thread.java:834)
+23-Jun-2022 12:49:15.763 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [magnoliaPublic] appears to have started a thread named [Thread-80] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@11.0.15/java.lang.Object.wait(Native Method)
+ java.base@11.0.15/java.lang.Object.wait(Object.java:328)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon.nextTask(Unknown Source)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon$RunLoop.run(Unknown Source)
+ java.base@11.0.15/java.lang.Thread.run(Thread.java:834)
+23-Jun-2022 12:49:15.763 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [magnoliaPublic] appears to have started a thread named [Thread-81] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@11.0.15/java.lang.Object.wait(Native Method)
+ java.base@11.0.15/java.lang.Object.wait(Object.java:328)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon.nextTask(Unknown Source)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon$RunLoop.run(Unknown Source)
+ java.base@11.0.15/java.lang.Thread.run(Thread.java:834)
+23-Jun-2022 12:49:15.763 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [magnoliaPublic] appears to have started a thread named [Thread-82] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@11.0.15/java.lang.Object.wait(Native Method)
+ java.base@11.0.15/java.lang.Object.wait(Object.java:328)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon.nextTask(Unknown Source)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon$RunLoop.run(Unknown Source)
+ java.base@11.0.15/java.lang.Thread.run(Thread.java:834)
+23-Jun-2022 12:49:15.763 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [magnoliaPublic] appears to have started a thread named [Thread-83] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@11.0.15/java.lang.Object.wait(Native Method)
+ java.base@11.0.15/java.lang.Object.wait(Object.java:328)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon.nextTask(Unknown Source)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon$RunLoop.run(Unknown Source)
+ java.base@11.0.15/java.lang.Thread.run(Thread.java:834)
+23-Jun-2022 12:49:15.763 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [magnoliaPublic] appears to have started a thread named [Thread-84] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@11.0.15/java.lang.Object.wait(Native Method)
+ java.base@11.0.15/java.lang.Object.wait(Object.java:328)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon.nextTask(Unknown Source)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon$RunLoop.run(Unknown Source)
+ java.base@11.0.15/java.lang.Thread.run(Thread.java:834)
+23-Jun-2022 12:49:15.763 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [magnoliaPublic] appears to have started a thread named [Thread-85] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@11.0.15/java.lang.Object.wait(Native Method)
+ java.base@11.0.15/java.lang.Object.wait(Object.java:328)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon.nextTask(Unknown Source)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon$RunLoop.run(Unknown Source)
+ java.base@11.0.15/java.lang.Thread.run(Thread.java:834)
+23-Jun-2022 12:49:15.763 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [magnoliaPublic] appears to have started a thread named [Thread-86] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@11.0.15/java.lang.Object.wait(Native Method)
+ java.base@11.0.15/java.lang.Object.wait(Object.java:328)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon.nextTask(Unknown Source)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon$RunLoop.run(Unknown Source)
+ java.base@11.0.15/java.lang.Thread.run(Thread.java:834)
+23-Jun-2022 12:49:15.763 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [magnoliaPublic] appears to have started a thread named [Thread-87] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@11.0.15/java.lang.Object.wait(Native Method)
+ java.base@11.0.15/java.lang.Object.wait(Object.java:328)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon.nextTask(Unknown Source)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon$RunLoop.run(Unknown Source)
+ java.base@11.0.15/java.lang.Thread.run(Thread.java:834)
+23-Jun-2022 12:49:15.763 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [magnoliaPublic] appears to have started a thread named [Thread-88] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@11.0.15/java.lang.Object.wait(Native Method)
+ java.base@11.0.15/java.lang.Object.wait(Object.java:328)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon.nextTask(Unknown Source)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon$RunLoop.run(Unknown Source)
+ java.base@11.0.15/java.lang.Thread.run(Thread.java:834)
+23-Jun-2022 12:49:15.763 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [magnoliaPublic] appears to have started a thread named [Thread-89] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@11.0.15/java.lang.Object.wait(Native Method)
+ java.base@11.0.15/java.lang.Object.wait(Object.java:328)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon.nextTask(Unknown Source)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon$RunLoop.run(Unknown Source)
+ java.base@11.0.15/java.lang.Thread.run(Thread.java:834)
+23-Jun-2022 12:49:15.763 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [magnoliaPublic] appears to have started a thread named [Thread-90] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@11.0.15/java.lang.Object.wait(Native Method)
+ java.base@11.0.15/java.lang.Object.wait(Object.java:328)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon.nextTask(Unknown Source)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon$RunLoop.run(Unknown Source)
+ java.base@11.0.15/java.lang.Thread.run(Thread.java:834)
+23-Jun-2022 12:49:15.778 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [magnoliaPublic] appears to have started a thread named [Transient File Reaper] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@11.0.15/java.lang.Object.wait(Native Method)
+ java.base@11.0.15/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:155)
+ java.base@11.0.15/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:176)
+ org.apache.jackrabbit.util.TransientFileFactory$ReaperThread.run(TransientFileFactory.java:192)
+23-Jun-2022 12:49:15.778 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [magnoliaPublic] appears to have started a thread named [Thread-106] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@11.0.15/java.lang.Object.wait(Native Method)
+ java.base@11.0.15/java.lang.Object.wait(Object.java:328)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon.nextTask(Unknown Source)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon$RunLoop.run(Unknown Source)
+ java.base@11.0.15/java.lang.Thread.run(Thread.java:834)
+23-Jun-2022 12:49:15.778 SEVERE [main] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [magnoliaPublic] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@56e4389f]) and a value of type [info.magnolia.context.SystemRepositoryStrategy] (value [SystemRepositoryStrategy[No creation stack trace available. Enable DEBUG logging for class info.magnolia.context.SystemRepositoryStrategy to enable it.]]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+23-Jun-2022 12:49:15.778 SEVERE [main] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [magnoliaPublic] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@56e4389f]) and a value of type [info.magnolia.context.SystemRepositoryStrategy] (value [SystemRepositoryStrategy[No creation stack trace available. Enable DEBUG logging for class info.magnolia.context.SystemRepositoryStrategy to enable it.]]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+23-Jun-2022 12:49:15.778 SEVERE [main] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [magnoliaPublic] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@56e4389f]) and a value of type [info.magnolia.context.SystemRepositoryStrategy] (value [SystemRepositoryStrategy[No creation stack trace available. Enable DEBUG logging for class info.magnolia.context.SystemRepositoryStrategy to enable it.]]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+23-Jun-2022 12:49:15.810 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+23-Jun-2022 12:49:15.826 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
