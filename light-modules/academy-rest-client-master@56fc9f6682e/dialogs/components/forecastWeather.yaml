@@ -1,0 +1,17 @@
+form:
+ properties:
+   units:
+     $type: comboBoxField
+     datasource:
+       $type: optionListDatasource
+       options:
+         - name: celsius
+           label: Celsius
+           value: metric
+         - name: fahrenheit
+           label: Fahrenheit
+           value: imperial
+footerLayout:
+ $type: defaultEditorActionLayout
+ primaryActions:
+   commit: commit

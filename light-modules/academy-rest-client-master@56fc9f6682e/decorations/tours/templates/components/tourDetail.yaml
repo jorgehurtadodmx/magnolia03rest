@@ -1,0 +1,11 @@
+templateScript: /academy-rest-client/templates/components/tourDetail-weather.ftl
+modelClass: info.magnolia.demo.travel.tours.model.TourDetailModel
+renderType: freemarker
+
+areas:
+ weatherArea:
+   renderType: freemarker
+   type: list
+   availableComponents:
+     forecastWeather:
+       id: academy-rest-client:components/forecastWeather

@@ -1,0 +1,8 @@
+version: 1.0.0
+dependencies:
+  rest-client:
+    version: 2.0.1/*
+  tours:
+    version: 1.5.0/*
+  travel-demo:
+    version: 1.5.0/*

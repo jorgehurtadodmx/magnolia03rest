@@ -1,0 +1,8 @@
+baseUrl: http://api.openweathermap.org/data/2.5
+restCalls:
+  forecastCityName:
+    method: get
+    entityClass: com.fasterxml.jackson.databind.JsonNode
+    path: /forecast
+    queryParameters: {q: "{location}", mode: json, appid: 41fb0817710ff04c92ab2116c4b462e3, units: "{temperatureUnit}"}
+    defaultValues: { location: "London", temperatureUnit: "metric" }

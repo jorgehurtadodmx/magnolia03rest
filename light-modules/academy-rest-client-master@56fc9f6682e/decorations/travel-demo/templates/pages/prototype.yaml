@@ -1,0 +1,3 @@
+areas:
+ htmlHeader:
+   templateScript: /academy-rest-client/templates/pages/areas/weather-htmlHeader.ftl

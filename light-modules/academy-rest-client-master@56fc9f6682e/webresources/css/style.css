@@ -1,0 +1,101 @@
+
+/* table */
+#respTable {
+  width: 100%;
+  display: table;
+  margin: 25px 0 0 20px;
+}
+
+#resp-table-caption{
+  display: table-caption;
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+#resp-table-header{
+  display: table-header-group;
+  background-color: gray;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.table-header-cell{
+  display: table-cell;
+  padding: 10px;
+  text-align: justify;
+  border-bottom: 1px solid black;
+}
+
+#resp-table-body{
+  display: table-row-group;
+}
+
+.resp-table-row{
+  display: table-row;
+}
+
+.table-body-cell{
+  display: table-cell;
+  vertical-align: middle;
+}
+
+#weather-outer {
+	height: 84px;
+}
+
+.table {
+	display: table;   /* Allow the centering to work */
+	margin: 0 auto;
+}
+
+ul#horizontal-list {
+	min-width: 696px;
+	list-style: none;
+	padding-top: 20px;
+}
+
+ul#horizontal-list li {
+	display: inline;
+}
+
+.iconWeather {
+  font-size: 400%;
+}
+
+.temperature {
+  font-size: 20px;
+  font-weight: bold;
+  float: left;
+}
+
+.hour {
+  float: left;
+  margin-bottom: 5px;
+}
+
+.weatherClass {
+  width: 100%;
+}
+
+.weatherError{
+  font-style: italic;
+  color:red;
+}
+
+#currentWeather {
+    text-align: center;
+    width: 80%;
+    display: table;
+    margin: auto;
+}
+
+.weatherIcon{
+  display: block;
+  font-size: 13px;
+}
+
+.currentTemperature {
+  font-size: 30px;
+  font-weight: bold;
+}

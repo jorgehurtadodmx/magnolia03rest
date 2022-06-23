@@ -1,0 +1,4 @@
+title: Forecast Weather
+renderType: freemarker
+dialog: academy-rest-client:components/forecastWeather
+templateScript: /academy-rest-client/templates/components/forecastWeather.ftl

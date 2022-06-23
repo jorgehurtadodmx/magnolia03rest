@@ -1,0 +1,7 @@
+baseUrl: https://programming-quotes-api.herokuapp.com
+restCalls:
+  random:
+    method: get
+    entityClass: com.fasterxml.jackson.databind.JsonNode
+    path: /quotes/random/lang/en
+    
