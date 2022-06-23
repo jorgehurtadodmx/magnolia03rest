@@ -1,0 +1,33 @@
+1-----Magnolia rest client consist on two modules
+
+1. magnolia rest client
+
+Provides the core functionality to allow developers to create Rest client configuration files and use
+these configurations in the pages
+
+2. magnolia rest client app
+
+Provides users with rights to test the rest client configurations easily
+Used to ensure that configuration is properly defined
+Allows to see content we get from configuration.
+We can see exact structure of the data.
+
+
+---------------------------
+2----------
+https://docs.magnolia-cms.com/product-docs/6.2/Modules/Light-modules.html
+The light module structure
+
+We need a "restClients" folder in the created light module and create definitions within
+
+
+---------------------------
+3----------
+YAML definition
+Rest Clients are configured within YAML files
+REST clients registry uses the YAML file name as reference.
+
+
+
+4 ------ Exercise - My First Rest Client
+	

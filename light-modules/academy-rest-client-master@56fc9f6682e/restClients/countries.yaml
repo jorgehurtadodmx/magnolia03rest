@@ -1,0 +1,6 @@
+baseUrl: https://restcountries.eu/rest/v2/
+restCalls:
+  allCountries:
+    method: GET
+    entityClass: com.fasterxml.jackson.databind.JsonNode
+    path: /all
