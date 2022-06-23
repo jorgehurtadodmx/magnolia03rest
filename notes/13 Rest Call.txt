@@ -1,0 +1,140 @@
+
+13
+REST CALL
+basically use the rest client to filter queries
+
+
+14
+The Rest Call - The Call Name.
+This is an arbitrary name that you will use to reference this specific REST call.
+
+If using restfn in an FTL file, this would be called by ${restfn.call (“REST client name”, “ call name ”, ... some props)} 
+and in your Freemarker template script:
+
+[#assign weather = restfn.call("weather", "weatherCityName", customValues) ]
+[#assign forecast = restfn.call("weather", "forecastCityName", customValues) ]
+
+REPASAR ESTA, 14.
+
+
+15The Rest Call - Entity Class.
+Java class that is populated by the response of a call.
+In general, REST calls result with a Json package
+so we just set this property with 
+    entityClass: com.fasterxml.jackson.databind.JsonNode
+or a hashmap to work the package with that.
+
+
+16
+
+
+The Rest Call - Method. 
+This property is the type of call we are making
+GET
+POST
+HEAD
+PUT
+DELETE
+
+If we were to create data from this REST call, we use PUT, if we are looking to update content,
+we use POST
+
+
+17
+The Rest Call - Path
+
+A property that is a relative path to the call to make.
+It is relative to the baseURL	set above the rest client.
+ For example if we wanna reach
+https://jsonplaceholder.typicode.com/posts 
+
+we set the baseURL to 
+baseUrl: https://jsonplaceholder.typicode.com
+
+and the path property to
+    path: /posts
+
+
+18
+The Rest Call - Body & Default Values. 
+
+We can define the body of the request if necessary
+It is a json package where we can define default and predefined values, as well as variables to be used. 
+An example would be
+    body: '{"userId": 1, "title": "{title}", "body": "{body}"}'
+    defaultValues:
+      title: "Lorem ipsum"
+      body: "Lorem ipsum dolor sit amet."
+
+In this example, the userId , and title are predefined. 
+
+The value list is variable, as you can see with the { } brackets
+
+You should make sure that you define defaultValues.
+
+As you see above in the case that these aren’t provided. You can also specify other default values as 
+
+
+well, including queryParameters, and even path parameters, i.e /path/to/call/{id}.
+
+    path: /posts/{id}
+    queryParameters:
+      id: "{id}"
+    defaultValues:
+      id: 1
+
+
+get - /quotes/{id}.json
+
+
+
+19
+Exercise - Playtime with Paths Part 1
+1. Create a new YAML definition.
+
+In your academy-rest-client light module, go to restClients.
+
+In it, add a new YAML definition and name it posts.
+
+Paste the following configuration in this new file:
+baseUrl: https://jsonplaceholder.typicode.com
+restCalls:
+  single:
+    method: GET
+    entityClass: com.fasterxml.jackson.databind.JsonNode
+    path: /posts/1
+
+2. Use GET method.
+
+
+If you already have the REST client app open in your browser, please close it before performing the next step.
+
+Open the Rest client app through the app launcher or find bar.
+
+Select the rest-client posts.
+
+Select the rest-call GET - /posts/1.
+
+Click Send request and observe the response.
+
+my response>
+
+{
+  "userId" : 1,
+  "id" : 1,
+  "title" : "sunt aut facere repellat provident occaecati excepturi optio reprehenderit",
+  "body" : "quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto"
+}
+which is the actual response that shoudl give
+
+
+----------------------------
+Exercise - Playtime with Paths Part 2
+
+1. Modify the YAML definition.
+
+The path that we set is always going to request a Post with the ID: 1. Now, let's change things up to make things a bit more dynamic.
+
+Still in your academy-rest-client light module, and restClients, edit posts.yaml:
+
+
